@@ -9,6 +9,7 @@ This table provides details about the available driver:
 | Version        | Driver Date | Download Link                                              |
 |----------------|--------------|--------------------------------------------------------------|
 | 21.8.52.318     | 01/08/2024     | [Ugreen CM761](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/AIC8800FC-CM761%E9%A9%B1%E5%8A%A8.zip) |
+| 21.8.51.313     | 10/18/2023     | [Comfast CF-940AX](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/20231220091946673.zip) |
 | 19.20.4.894     | 08/19/2023     | [Tenda W311MIv6.0](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/Setup_W311MIV6.0_V1.0.0.8.zip) |
 
 ## Supported Devices
