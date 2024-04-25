@@ -4,8 +4,7 @@ This repository provides USB WiFi drivers for AIC8800 and compatible devices on 
 
 ## Driver Information
 
-This table provides details about the available drivers. <br>
-For <b><em>Windows 7 users</em></b>, please note that the driver versions in this table might be lower than expected.
+This table provides details about the available drivers.
 
 | Device                              | Drver Version | Driver Date | Official Link                                                                                                                         | Backup Link                                                                                                                       |
 |-------------------------------------|---------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -17,6 +16,9 @@ For <b><em>Windows 7 users</em></b>, please note that the driver versions in thi
 | <br> Tenda W311MIv6.0   <br> &nbsp; | 19.20.4.894   | 08/19/2023  | [Download](https://down.tendacn.com/uploadfile/W311MI/Setup_W311MIV6.0_V1.0.0.8.zip)                                                  | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/Setup_W311MIV6.0_V1.0.0.8.zip)                         |
 | <br> Enmane EM-AX286    <br> &nbsp; | 16.7.10.200   | 02/09/2023  | [Download](http://www.enmangroup.cn/link/EM-AX286_Windows_WiFi_Driver.zip)                                                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/EM-AX286_Windows_WiFi_Driver.zip)                      |
 | <br> Fenvi WIFI 6 AX286 <br> &nbsp; | 16.7.10.200   | 02/09/2023  | [Download](https://download.fenvi.com/support/USB/18286.rar)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/18286.rar)                                             |
+
+For <b><em>Windows 7 users</em></b>, please note that the driver versions in this table might be lower than expected. <br>
+If you encounter an error while installing drivers on Windows 7, installing hotfix [KB3033929](https://www.lb-link.com/download/Driverprogram/170/LB-LINK-BL-WN300AX(FU1)-WIN7patch.html) might resolve the issue. <br>
 
 ## Supported Devices
 
