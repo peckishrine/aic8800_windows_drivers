@@ -21,7 +21,7 @@ This table provides details about the available driver:
 
 This table provides a list of devices compatible with the latest driver, along with their corresponding Device IDs.
 
-| Vendor  | Device Description              | Device IDs |
+| Vendor  | Device Description              | Device IDs                                                                                                                                                                                                                                             |
 |---------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AIC     | AIC USB WiFi                    |                                                                                                                                                                                                                                                        |
 | AIC     | AIC88DC USB WiFi                | USB\VID_A69C&PID_88DC<br>USB\VID_A69C&PID_88DD<br>USB\VID_368B&PID_88DF                                                                                                                                                                                |
