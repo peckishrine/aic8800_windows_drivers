@@ -12,6 +12,7 @@ This table provides details about the available driver:
 | Comfast CF-940AX | 21.8.51.313     | 10/18/2023     | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/20231220091946673.zip) | [Download](https://en.comfast.com.cn/uploadfile/2023/1220/20231220091946673.zip) |
 | Enmane AX300S | 21.6.12.33     | 10/04/2023     | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/EM-AX300S_Windows_WiFi6_Driver.zip) | [Download](https://www.enmangroup.cn/link/EM-AX300S_Windows_WiFi6_Driver.zip) |
 | Tenda W311MIv6.0 | 19.20.4.894     | 08/19/2023     | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/Setup_W311MIV6.0_V1.0.0.8.zip) | [Download](https://down.tendacn.com/uploadfile/W311MI/Setup_W311MIV6.0_V1.0.0.8.zip) |
+| Enmane AX286 | 16.7.10.200     | 02/09/2023     |  | [Download](http://www.enmangroup.cn/link/EM-AX286_Windows_WiFi_Driver.zip) |
 | Fenvi WIFI 6 AX286 | 16.7.10.200     | 02/09/2023     | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/18286.rar) | [Download](https://download.fenvi.com/support/USB/18286.rar) |
 
 ## Supported Devices
