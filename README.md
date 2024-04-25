@@ -17,7 +17,7 @@ This table provides details about the available drivers.
 | <br> Enmane EM-AX286    <br> &nbsp; | 16.7.10.200   | 02/09/2023  | [Download](http://www.enmangroup.cn/link/EM-AX286_Windows_WiFi_Driver.zip)                                                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/EM-AX286_Windows_WiFi_Driver.zip)                      |
 | <br> Fenvi WIFI 6 AX286 <br> &nbsp; | 16.7.10.200   | 02/09/2023  | [Download](https://download.fenvi.com/support/USB/18286.rar)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/18286.rar)                                             |
 
-For <b><em>Windows 7 users</em></b>, please note that the driver versions in this table might be lower than expected. <br>
+For <b><em>Windows 7 users</em></b>, please note that the driver versions might vary from those listed in the table. <br>
 If you encounter an error while installing drivers on Windows 7, installing hotfix [KB3033929](https://www.lb-link.com/download/Driverprogram/170/LB-LINK-BL-WN300AX(FU1)-WIN7patch.html) might resolve the issue. <br>
 
 ## Supported Devices
