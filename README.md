@@ -6,8 +6,11 @@ This repository provides USB WiFi drivers for AIC8800 and compatible devices on 
 
 This table provides details about the available drivers sorted by most recent first.
 
-| Device                              | Drver Version | Driver Date | Official Link                                                                                                                         | Backup Link                                                                                                                       |
+The driver version and date are sourced from `win10_x64\aicusbwifi.inf`.
+
+| Device                              | Drver Version | Driver Date | Official Link                                                                                                                         | Mirror Link                                                                                                                       |
 |-------------------------------------|---------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| <br> LB-Link BL-AX900   <br> &nbsp; | 6.40.60.210   | 12/09/2024  | [~~Download Page~~](https://b-link.net.cn/downloads_16.html)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/BL-AX900_windows_driver(2409).zip)                     |
 | <br> Ugreen CM762       <br> &nbsp; | 6.40.60.192   | 05/08/2024  | [Download](https://download.lulian.cn/AIC8800D80.zip)                                                                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/AIC8800D80.zip)                                        |
 | <br> Ugreen CM761       <br> &nbsp; | 21.8.52.318   | 01/08/2024  | [Download](https://download.lulian.cn/AIC8800FC-CM761%E9%A9%B1%E5%8A%A8.zip)                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/AIC8800FC-CM761%E9%A9%B1%E5%8A%A8.zip)                 |
 | <br> Comfast CF-940AX   <br> &nbsp; | 21.8.51.313   | 10/18/2023  | [Download](https://en.comfast.com.cn/uploadfile/2023/1220/20231220091946673.zip)                                                      | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/20231220091946673.zip)                                 |
@@ -18,7 +21,6 @@ This table provides details about the available drivers sorted by most recent fi
 | <br> Enmane EM-AX286    <br> &nbsp; | 16.7.10.200   | 02/09/2023  | [Download](http://www.enmangroup.cn/link/EM-AX286_Windows_WiFi_Driver.zip)                                                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/EM-AX286_Windows_WiFi_Driver.zip)                      |
 | <br> Fenvi WIFI 6 AX286 <br> &nbsp; | 16.7.10.200   | 02/09/2023  | [Download](https://download.fenvi.com/support/USB/18286.rar)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/18286.rar)                                             |
 
-For <b><em>Windows 7 users</em></b>, please note that the driver versions might vary from those listed in the table. <br>
 If you encounter an error while installing drivers on Windows 7, installing hotfix [KB3033929](https://www.lb-link.com/download/Driverprogram/170/LB-LINK-BL-WN300AX(FU1)-WIN7patch.html) might resolve the issue. <br>
 
 ## Supported Devices
