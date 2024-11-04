@@ -2,6 +2,12 @@
 
 This repository provides USB WiFi drivers for AIC8800 and compatible devices on Windows 7/10/11 32-bit and 64-bit.
 
+AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 specs [EN][Translated by Yandex]
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/peckishrine/aic8800_windows_drivers/main/dda3461d-d025-41ea-83a8-27fce83387ee.png)  |  ![](https://raw.githubusercontent.com/peckishrine/aic8800_windows_drivers/main/dda3461d-d025-41ea-83a8-27fce83387ee.translated.jpg)
+
+
+
 ## Driver Information
 
 This table provides details about the available drivers sorted by most recent first.
