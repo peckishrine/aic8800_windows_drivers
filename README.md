@@ -14,6 +14,8 @@ This table provides details about the available drivers sorted by most recent fi
 
 The driver version and date are sourced from `win10_x64\aicusbwifi.inf`.
 
+The release notes are extracted from the Ugreen driver version 20.55.41.132, available [here [CN]](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.txt) and [here [EN][Translated by GPT-4o mini]](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.translated.txt).
+
 | Device                              | Drver Version | Driver Date | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------|---------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <br> LB-Link BL-AX900   <br> &nbsp; | 6.40.60.210   | 09/12/2024  | [~~Download Page~~](https://b-link.net.cn/downloads_16.html)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/BL-AX900_windows_driver(2409).zip)                                      |
