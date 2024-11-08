@@ -29,6 +29,9 @@ The driver version and date are sourced from `win10_x64\aicusbwifi.inf`.
 
 If you encounter an error while installing drivers on Windows 7, installing hotfix [KB3033929](https://www.lb-link.com/download/Driverprogram/170/LB-LINK-BL-WN300AX(FU1)-WIN7patch.html) might resolve the issue. <br>
 
+
+### Drivers for Dual-band Devices
+
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                                         | Mirror Link                                                                                                                                         |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <br> TP-Link TL-XDN7000 <br> &nbsp;                         | 2024-10-17  | 14.46.40.642   | 1                                     | [Download](https://media.tp-link.com.cn/software/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip)                                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip)                               |
@@ -41,6 +44,8 @@ If you encounter an error while installing drivers on Windows 7, installing hotf
 | <br> Tenda U11          <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 24                                    | [Download](https://down.tendacn.com/uploadfile/U11/Setup_U11V1.0_V1.0.0.10.zip)                                                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/Setup_U11V1.0_V1.0.0.10.zip)                                             |
 | <br> Arvox AX900        <br> &nbsp;                         | 2024-03-02  | 6.40.60.10     | 7                                     | [Google Drive](https://drive.google.com/drive/folders/1qRon7CmS5sJFOBwek72gHWKLBbLti202?usp=sharing)                                   | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/ARVOX%20AX900%200501_24%20driver.zip)                                    |
 
+
+### Drivers for Single-band Devices
 
 | Single-band Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -57,6 +62,7 @@ If you encounter an error while installing drivers on Windows 7, installing hotf
 | <br> Microsoft®Update <br> Catalog <br> &nbsp;              | 2023-01-12  | 15.20.28.526   |                                       | [Download](https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2023/02/551b8062-965e-4c98-a68a-fe20e8fea8e6_953a26b4ca290decbaea7f2b5899df10c67a6453.cab) ||
 
 \* The server bans hotlinking by referer, so it's best to copy the link and paste it into a new tab or your download manager.
+
 
 ## Supported Devices
 
