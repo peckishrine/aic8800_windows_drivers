@@ -35,6 +35,8 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 * A dual-band driver **`may work`** with single-band devices, but a single-band driver **`may not work`** with dual-band devices.
 
+* Identical drivers are grouped together in the same row within the table.
+
 * If you encounter an error while installing drivers on Windows 7, installing hotfix [KB3033929](https://www.lb-link.com/download/Driverprogram/170/LB-LINK-BL-WN300AX(FU1)-WIN7patch.html) may resolve the issue. <br>
 
 
@@ -78,9 +80,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                   | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|----------------------------------------------------------------------------------|----------------------------------|
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1                                     | [Download][DB-2024-10-17-OL-A] <br> <br> [Download][DB-2024-10-17-OL-B]          | [Download][DB-2024-10-17-ML-A] <br> <br> [Download][DB-2024-10-17-ML-B]  |
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1                                     | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]               | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
 | <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [~~Download Page~~][DB-2024-09-12-OL-A]                                          | [Download][DB-2024-09-12-ML-A]   |
-| <br> Ugreen CM763-35265 <br> &nbsp; <br> &nbsp;             | 2024-09-12  | 6.40.60.210    | 30 ❌                                 | [Download][DB-2024-09-12-OL-B]* <br> <br> [Download][DB-2024-09-12-OL-C]*        | [Download][DB-2024-09-12-ML-B] <br> <br> [Download][DB-2024-09-12-ML-C]  |
+| <br> Ugreen CM763-35265 <br> &nbsp; <br> &nbsp;             | 2024-09-12  | 6.40.60.210    | 30 ❌                                 | [Download][DB-2024-09-12-OL-B]* <br> [Download][DB-2024-09-12-OL-C]*             | [Download][DB-2024-09-12-ML-B] <br> [Download][DB-2024-09-12-ML-C]  |
 | <br> Tenda U11 Pro      <br> &nbsp;                         | 2024-08-22  | 6.40.60.204    | 30                                    | [Download][DB-2024-08-22-OL-A]                                                   | [Download][DB-2024-08-22-ML-A]   |
 | <br> BrosTrend AX7      <br> &nbsp;                         | 2024-07-08  | 6.40.60.196    | 27                                    | [Download][DB-2024-07-08-OL-A]                                                   | [Download][DB-2024-07-08-ML-A]   |
 | <br> Ugreen CM762       <br> &nbsp;                         | 2024-05-08  | 6.40.60.192    | 27                                    | [Download][DB-2024-05-08-OL-A]*                                                  | [Download][DB-2024-05-08-ML-A]   |
