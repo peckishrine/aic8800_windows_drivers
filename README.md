@@ -40,6 +40,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 ### Drivers for Dual-band Devices | AX900
 
+[DB-2025-06-27-OL-A]: https://static.tenda.com.cn/doc/2025/07/25/656a29d0576d4325a68eb292935dfeea/Setup_U11ProV1.0_V1.0.0.21.zip
+[DB-2025-06-27-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/Setup_U11ProV1.0_V1.0.0.21.zip
+
 [DB-2024-11-15-OL-A]: https://resource.tp-link.com.cn/pc/docCenter/showDoc?productId=3343&type=DRIVER&id=1733901300455155
 [DB-2024-11-15-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/TL-XDN7000免驱版%20V1.1%20Windows系统驱动程序20241126.zip
 
@@ -93,6 +96,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2025-06-27  | 6.40.60.210    | 41                                    | [Download][DB-2025-06-27-OL-A]                                                                                        | [Download][DB-2025-06-27-ML-A]   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                         | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page][DB-2024-11-09-OL-A]                                                                               | [Download][DB-2024-11-09-ML-A]   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1 ❓[^3]                              | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]                                                    | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
