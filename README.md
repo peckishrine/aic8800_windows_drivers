@@ -42,6 +42,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 ### Drivers for Dual-band Devices | AX900
 
+[DB-2024-11-15-OL-A]: https://resource.tp-link.com.cn/pc/docCenter/showDoc?productId=3343&type=DRIVER&id=1733901300455155
+[DB-2024-11-15-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/TL-XDN7000免驱版%20V1.1%20Windows系统驱动程序20241126.zip
+
 [DB-2024-11-09-OL-A]: https://b-link.net.cn/downloads_16.html
 [DB-2024-11-09-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/BL-AX90BT_windows_driver(2411).zip
 
@@ -92,6 +95,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1                                     | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                         | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page][DB-2024-11-09-OL-A]                                                                               | [Download][DB-2024-11-09-ML-A]   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1                                     | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]                                                    | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
 | <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [Download Page][DB-2024-09-12-OL-A]                                                                               | [Download][DB-2024-09-12-ML-A]   |
