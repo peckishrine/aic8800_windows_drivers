@@ -6,10 +6,11 @@ This repository provides USB WiFi drivers for AIC8800 and compatible devices on 
 
 1. [AIC8800 Specifications](#aic8800-specifications)
 2. [Driver Release Notes](#driver-release-notes)
-3. [Driver Download](#driver-download)
+3. [Using Dual-Band Driver with Single-Band Device](#using-dual-band-driver-with-single-band-device)
+4. [Driver Download](#driver-download)
     - [Drivers for Dual-band Devices | AX900](#drivers-for-dual-band-devices--ax900)
     - [Drivers for Single-band Devices | AX286 AX300](#drivers-for-single-band-devices--ax286-ax300)
-4. [Supported Devices](#supported-devices)
+5. [Supported Devices](#supported-devices)
 
 ## AIC8800 Specifications
 
@@ -27,13 +28,25 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 | [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.txt) |  |
 | [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.translated.txt) |  |
 
+## Using Dual-Band Driver with Single-Band Device
 
+Although **dual-band (2.4 GHz + 5 GHz)** driver can technically install and function on many single-band (2.4 GHz only) USB Wi-Fi adapters, **it is not recommended**.
+
+In some cases the driver may incorrectly detect the device capabilities and lock the adapter to **802.11n (Wi-Fi 4)**, even when the hardware supports **802.11ax (Wi-Fi 6)**. Simply uninstalling and reinstalling the driver **will not resolve** this issue.
+
+#### How to fix the problem (if it occurs):
+1. Open **Device Manager**
+2. Locate your USB Wi-Fi adapter under **Network adapters**
+3. Right-click → **Properties** → **Advanced** tab
+4. Find the setting **802.11 Wireless Mode**
+5. Change it from the restricted value to **802.11a/b/g/n/ac/ax**
+6. Click **OK** and restart the adapter (unplug/replug)
+
+For the best performance and stability, always prefer a driver that matches your device’s native capabilities (dual-band driver for dual-band devices, single-band driver for single-band devices when available).
 
 ## Driver Download
 
 * The driver date and version are obtained from `win10_x64\aicusbwifi.inf`.
-
-* A dual-band driver **`may work`** with single-band devices.
 
 * Identical drivers are grouped together in the same row within the table.
 
