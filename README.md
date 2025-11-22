@@ -95,9 +95,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1                                     | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                         | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page][DB-2024-11-09-OL-A]                                                                               | [Download][DB-2024-11-09-ML-A]   |
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1                                     | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]                                                    | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1 ❓[^3]                              | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]                                                    | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
 | <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [Download Page][DB-2024-09-12-OL-A]                                                                               | [Download][DB-2024-09-12-ML-A]   |
 | <br> Ugreen CM763-35265 <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30 ❌[^2]                             | [Download][DB-2024-09-12-OL-B][^1] <br> [Download][DB-2024-09-12-OL-C][^1] <br> [Download][DB-2024-09-12-OL-D][^1]             | [Download][DB-2024-09-12-ML-B] <br> [Download][DB-2024-09-12-ML-C] <br> [Download][DB-2024-09-12-ML-D]  |
 | <br> Tenda U11 Pro      <br> &nbsp;                         | 2024-08-22  | 6.40.60.204    | 30                                    | [Download][DB-2024-08-22-OL-A]                                                                                        | [Download][DB-2024-08-22-ML-A]   |
@@ -133,6 +133,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 [^2]:❌: The test for the USB Mode Switch service (AicWifiService.exe) failed on some USB Wi-Fi adapters.
 
+[^3]:❓: This is a TP-Link-specific driver only. Do not use it if you're looking for a generic/universal USB WiFi driver.
 
 ## Supported Devices
 
