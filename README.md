@@ -40,6 +40,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 ### Drivers for Dual-band Devices | AX900
 
+[DB-2025-08-06-OL-A]: https://www.cudy.com/cdn/shop/files/Driver_for_WU900_1.0_windows_7_10_11.zip
+[DB-2025-08-06-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/Driver_for_WU900_1.0_windows_7_10_11.zip
+
 [DB-2025-06-27-OL-A]: https://static.tenda.com.cn/doc/2025/07/25/656a29d0576d4325a68eb292935dfeea/Setup_U11ProV1.0_V1.0.0.21.zip
 [DB-2025-06-27-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/Setup_U11ProV1.0_V1.0.0.21.zip
 
@@ -96,6 +99,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| <br> Cudy WU900 1.0     <br> &nbsp;                         | 2025-08-06  | 14.46.40.644    | 31                                    | [Download][DB-2025-08-06-OL-A]                                                                               | [Download][DB-2025-08-06-ML-A]   |
 | <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2025-06-27  | 6.40.60.210    | 41                                    | [Download][DB-2025-06-27-OL-A]                                                                                        | [Download][DB-2025-06-27-ML-A]   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                         | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page][DB-2024-11-09-OL-A]                                                                               | [Download][DB-2024-11-09-ML-A]   |
@@ -140,7 +144,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 ## Supported Devices
 
-This table shows 41 entries of devices compatible with the latest dual-band driver, including support for both dual-band and single-band devices.
+This table shows 41 entries of devices compatible with the latest dual-band driver (2025-06-27), including support for both dual-band and single-band devices.
 
 | Vendor     | Device Description                        | Device ID(s)                                                                                              |
 |------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
