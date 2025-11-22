@@ -33,11 +33,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 * The driver date and version are obtained from `win10_x64\aicusbwifi.inf`.
 
-* A dual-band driver **`may work`** with single-band devices, but a single-band driver **`may not work`** with dual-band devices.
+* A dual-band driver **`may work`** with single-band devices.
 
 * Identical drivers are grouped together in the same row within the table.
-
-* If you encounter an error while installing drivers on Windows 7, installing hotfix [KB3033929](https://www.lb-link.com/download/Driverprogram/170/LB-LINK-BL-WN300AX(FU1)-WIN7patch.html) may resolve the issue. <br>
 
 
 ### Drivers for Dual-band Devices | AX900
