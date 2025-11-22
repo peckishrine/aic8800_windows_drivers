@@ -54,6 +54,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 [DB-2024-10-17-OL-B]: https://media.tp-link.com.cn/software/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip
 [DB-2024-10-17-ML-B]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip
 
+[DB-2024-10-08-OL-A]: https://www.enmangroup.cn/link/EM-AX900S_Windows_WiFi%206_Driver.zip
+[DB-2024-10-08-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/EM-AX900S_Windows_WiFi%206_Driver.zip
+
 [DB-2024-09-20-OL-A]: https://www.enmangroup.cn/link/EM-AX902B_Windows_WiFi6_Driver.zip
 [DB-2024-09-20-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/EM-AX902B_Windows_WiFi6_Driver.zip
 
@@ -103,6 +106,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                         | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page][DB-2024-11-09-OL-A]                                                                               | [Download][DB-2024-11-09-ML-A]   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1 ❓[^3]                              | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]                                                    | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
+| <br> Enmane EM-AX900S   <br> Enmane EM-AX900D <br> &nbsp;   | 2024-10-08  | 6.40.60.214    | 30                                    | [Download][DB-2024-10-08-OL-A]                                                                               | [Download][DB-2024-10-08-ML-A]   |
 | <br> Enmane EM-AX902B   <br> &nbsp;                         | 2024-09-20  | 6.40.60.212    | 31                                    | [Download][DB-2024-09-20-OL-A]                                                                               | [Download][DB-2024-09-20-ML-A]   |
 | <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [Download Page][DB-2024-09-12-OL-A]                                                                               | [Download][DB-2024-09-12-ML-A]   |
 | <br> Ugreen CM763-35265 <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30 ❌[^2]                             | [Download][DB-2024-09-12-OL-B][^1] <br> [Download][DB-2024-09-12-OL-C][^1] <br> [Download][DB-2024-09-12-OL-D][^1]             | [Download][DB-2024-09-12-ML-B] <br> [Download][DB-2024-09-12-ML-C] <br> [Download][DB-2024-09-12-ML-D]  |
