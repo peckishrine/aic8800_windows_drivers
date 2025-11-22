@@ -22,10 +22,10 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 | **Applicable to:** *Single-band Devices* | **Applicable to:** *Dual-band Devices*  |
 |:-----------------------------------|:-----------------------------------|
-| **Date:** 2024-10-09              | **Date:**               |
-| **Source:** Ugreen                | **Source:**                 |
-| [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.txt) |  |
-| [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.translated.txt) |  |
+| **Date:** 2024-10-09              | **Date:** 2024-11-09               |
+| **Source:** Ugreen                | **Source:** Enmane                |
+| [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.txt) | [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note2.txt)  |
+| [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note.translated.txt) | [Release Notes (English, Translated by Grok 4.1)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/release_note2.translated.txt) |
 
 ## Driver Download
 
