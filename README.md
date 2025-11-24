@@ -10,6 +10,9 @@ This repository provides USB WiFi drivers for AIC8800 and compatible devices on 
     - [Drivers for Dual-band Devices | AX900](#drivers-for-dual-band-devices--ax900)
     - [Drivers for Single-band Devices | AX286 AX300](#drivers-for-single-band-devices--ax286-ax300)
 4. [Supported Devices](#supported-devices)
+    - [Dual-Band Driver 14.46.40.644 — Released 2025-08-06](dual-band-driver-144640644--released-2025-08-06)
+    - [Dual-Band Driver 6.40.60.210 — Released 2025-06-27](dual-band-driver-64060210--released-2025-06-27)
+    - [Single-Band Driver 20.55.41.146 — Released 2025-07-31](single-band-driver-205541146--released-2025-07-31)
 
 ## AIC8800 Specifications
 
@@ -151,23 +154,55 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 ## Supported Devices
 
-This table shows 41 entries of devices compatible with the latest dual-band driver (2025-06-27), including support for both dual-band and single-band devices.
+#### Dual-Band Driver 14.46.40.644 — Released 2025-08-06
+| Device Description                  | Device ID(s)                                                                 |
+|-------------------------------------|------------------------------------------------------------------------------|
+| AIC USB WiFi                        | USB\VID_A69C&PID_8801&MI_02                                                  |
+| AIC88DC USB WiFi                    | USB\VID_A69C&PID_88DC<br>USB\VID_A69C&PID_88DD<br>USB\VID_A69C&PID_88DE<br>USB\VID_368B&PID_88DF |
+| AIC8800D80 USB WiFi                 | USB\VID_A69C&PID_8d81&MI_02<br>USB\VID_368b&PID_8d81&MI_02<br>USB\VID_368b&PID_8d84<br>USB\VID_A69C&PID_8d83<br>USB\VID_368b&PID_8d83<br>USB\VID_368b&PID_8d86 |
+| FAST Wireless USB Adapter           | USB\VID_2357&PID_014F                                                        |
+| MERCURY Wireless USB Adapter        | USB\VID_2357&PID_014B                                                        |
+| Tenda WiFi 6 Wireless USB Adapter   | USB\VID_2604&PID_001F<br>USB\VID_2604&PID_0020                               |
+| Tenda Wireless USB Adapter          | USB\VID_2604&PID_0013<br>USB\VID_2604&PID_0014                               |
+| TP-LINK Wireless N Adapter          | USB\VID_2357&PID_0147                                                        |
+| TP-LINK Wireless USB Adapter        | USB\VID_2357&PID_014E                                                        |
+| UGREEN Wi-Fi 6 USB Adapter          | USB\VID_368b&PID_8d88                                                        |
+| Ugreen WIFI6 Wireless USB NIC       | USB\VID_368b&PID_8d85                                                        |
+| Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
+<br>
 
-| Vendor     | Device Description                        | Device ID(s)                                                                                              |
-|------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| FAST       | FAST Wireless USB Adapter                 | USB\VID_2357&PID_014F                                                                                             |
-| Generic    | AX900 Dual-Band Wi-Fi 6 USB Adapter       | USB\VID_368B&PID_8D89 <br> USB\VID_368B&PID_8D8A                                                                                  |
-| Generic    | Wireless LAN WIFI 6 USB Adapter           | USB\VID_2604&PID_0015 <br> USB\VID_2604&PID_0016 <br> USB\VID_2604&PID_0017 <br> USB\VID_2604&PID_0018 <br> USB\VID_2604&PID_0019 <br> USB\VID_2604&PID_001A <br> USB\VID_2604&PID_001B <br> USB\VID_2604&PID_001C <br> USB\VID_2604&PID_001D <br> USB\VID_2604&PID_001E |
-| H3C        | H3C Magic USB WiFi Adapter                | USB\VID_368B&PID_8D8B <br> USB\VID_368B&PID_8D8D <br> USB\VID_368B&PID_88E2 <br> USB\VID_368B&PID_88E3                                      |
-| HIKVISION  | HIKVISION Wireless USB Adapter            | USB\VID_368B&PID_88E0 <br> USB\VID_368B&PID_88E1                                                                                  |
-| MERCURY    | MERCURY Wireless USB Adapter              | USB\VID_2357&PID_014B                                                                                             |
-| MERCUSYS   | MERCUSYS Wireless USB Adapter             | USB\VID_2C4E&PID_0114                                                                                             |
-| Tenda      | AIC USB WiFi                              | USB\VID_A69C&PID_8801&MI_02                                                                                       |
-| Tenda      | AIC8800D80 USB WiFi                       | USB\VID_A69C&PID_8D81&MI_02 <br> USB\VID_368B&PID_8D84 <br> USB\VID_A69C&PID_8D83 <br> USB\VID_368B&PID_8D83 <br> USB\VID_368B&PID_8D86 <br> USB\VID_368B&PID_8D8C |
-| Tenda      | AIC88DC USB WiFi                          | USB\VID_A69C&PID_88DC <br> USB\VID_A69C&PID_88DD <br> USB\VID_A69C&PID_88DE <br> USB\VID_368B&PID_88DF                                      |
-| Tenda      | Tenda WiFi 6 Wireless USB Adapter         | USB\VID_2604&PID_001F <br> USB\VID_2604&PID_0020                                                                          |
-| Tenda      | Tenda Wireless USB Adapter                | USB\VID_2604&PID_0013 <br> USB\VID_2604&PID_0014                                                                          |
-| TP-Link    | TP-LINK Wireless N Adapter                | USB\VID_2357&PID_0147                                                                                             |
-| TP-Link    | TP-LINK Wireless USB Adapter              | USB\VID_2357&PID_014E <br> USB\VID_3625&PID_0110                                                                          |
-| Ugreen     | Ugreen WIFI6 Wireless USB NIC             | USB\VID_368B&PID_8D85                                                                                             |
-| UGREEN     | UGREEN Wi-Fi 6 USB Adapter                | USB\VID_368B&PID_8D88                                                                                             |
+#### Dual-Band Driver 6.40.60.210 — Released 2025-06-27
+| Device Description                  | Device ID(s)                                                                                           |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------|
+| AIC USB WiFi                        | USB\VID_A69C&PID_8801&MI_02                                                                            |
+| AIC8800D80 USB WiFi                 | USB\VID_A69C&PID_8D81&MI_02<br>USB\VID_368B&PID_8D84<br>USB\VID_A69C&PID_8D83<br>USB\VID_368B&PID_8D83<br>USB\VID_368B&PID_8D86<br>USB\VID_368B&PID_8D8C |
+| AIC88DC USB WiFi                    | USB\VID_A69C&PID_88DC<br>USB\VID_A69C&PID_88DD<br>USB\VID_A69C&PID_88DE<br>USB\VID_368B&PID_88DF |
+| AX900 Dual-Band Wi-Fi 6 USB Adapter | USB\VID_368B&PID_8D89<br>USB\VID_368B&PID_8D8A                                                     |
+| FAST Wireless USB Adapter           | USB\VID_2357&PID_014F                                                                                  |
+| H3C Magic USB WiFi Adapter          | USB\VID_368B&PID_8D8B<br>USB\VID_368B&PID_8D8D<br>USB\VID_368B&PID_88E2<br>USB\VID_368B&PID_88E3 |
+| HIKVISION Wireless USB Adapter      | USB\VID_368B&PID_88E0<br>USB\VID_368B&PID_88E1                                                    |
+| MERCURY Wireless USB Adapter        | USB\VID_2357&PID_014B                                                                                  |
+| MERCUSYS Wireless USB Adapter       | USB\VID_2C4E&PID_0114                                                                                  |
+| Tenda WiFi 6 Wireless USB Adapter   | USB\VID_2604&PID_001F<br>USB\VID_2604&PID_0020                                                    |
+| Tenda Wireless USB Adapter          | USB\VID_2604&PID_0013<br>USB\VID_2604&PID_0014                                                    |
+| TP-LINK Wireless N Adapter          | USB\VID_2357&PID_0147                                                                                  |
+| TP-LINK Wireless USB Adapter        | USB\VID_2357&PID_014E<br>USB\VID_3625&PID_0110                                                    |
+| Ugreen WIFI6 Wireless USB NIC       | USB\VID_368B&PID_8D85                                                                                  |
+| UGREEN Wi-Fi 6 USB Adapter          | USB\VID_368B&PID_8D88                                                                                  |
+| Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
+<br>
+
+#### Single-Band Driver 20.55.41.146 — Released 2025-07-31
+| Device Description                  | Device ID(s)                                      |
+|-------------------------------------|---------------------------------------------------|
+| AIC88DC USB WiFi                    | USB\VID_A69C&PID_88DC<br>USB\VID_A69C&PID_88DD<br>USB\VID_368B&PID_88DF |
+| H3C Magic USB WiFi Adapter          | USB\VID_368B&PID_88e2<br>USB\VID_368B&PID_88e3 |
+| HIKVISION Wireless USB Adapter      | USB\VID_368B&PID_88e0<br>USB\VID_368B&PID_88e1 |
+| MERCUSYS Wireless USB Adapter       | USB\VID_2C4E&PID_0114<br>USB\VID_2C4E&PID_0126 |
+| Tenda Wireless USB Adapter          | USB\VID_2604&PID_0013<br>USB\VID_2604&PID_0014 |
+| TP-LINK Wireless N Adapter          | USB\VID_2357&PID_0147                             |
+| TP-Link Wireless USB Adapter        | USB\VID_3625&PID_0110                             |
+| Ugreen USB WiFi                     | USB\VID_A69C&PID_88DE                             |
+| Ugreen WIFI6 Wireless USB Adapter   | USB\VID_368B&PID_88e5                             |
+| Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
+<br>
