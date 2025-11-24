@@ -10,9 +10,9 @@ This repository provides USB WiFi drivers for AIC8800 and compatible devices on 
     - [Drivers for Dual-band Devices | AX900](#drivers-for-dual-band-devices--ax900)
     - [Drivers for Single-band Devices | AX286 AX300](#drivers-for-single-band-devices--ax286-ax300)
 4. [Supported Devices](#supported-devices)
-    - [Dual-Band Driver 14.46.40.644 — Released 2025-08-06](dual-band-driver-144640644--released-2025-08-06)
-    - [Dual-Band Driver 6.40.60.210 — Released 2025-06-27](dual-band-driver-64060210--released-2025-06-27)
-    - [Single-Band Driver 20.55.41.146 — Released 2025-07-31](single-band-driver-205541146--released-2025-07-31)
+    - [Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#dual-band-driver-144640644--released-2025-08-06)
+    - [Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#dual-band-driver-64060210--released-2025-06-27)
+    - [Single-Band Driver 20.55.41.146 — Released 2025-07-31](#single-band-driver-205541146--released-2025-07-31)
 
 ## AIC8800 Specifications
 
