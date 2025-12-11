@@ -1,6 +1,6 @@
 ## AIC8800 USB/PCIe WiFi Windows Driver 驱动
 
-This repository provides USB WiFi drivers for AIC8800 and compatible devices on Windows 7/10/11 32-bit and 64-bit, and PCIe WiFi drivers for AIC8800 on Windows 10/11 32-bit and 64-bit.
+This repository provides AIC USB WiFi drivers for AIC8800 and compatible devices on Windows 7/10/11 32-bit and 64-bit, and AIC PCIe WiFi drivers for AIC8800 on Windows 10/11 32-bit and 64-bit.
 
 #### Table of Contents
 
