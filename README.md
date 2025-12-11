@@ -1,18 +1,20 @@
-## AIC8800 USB WiFi Windows Driver 驱动
+## AIC8800 USB/PCIe WiFi Windows Driver 驱动
 
-This repository provides USB WiFi drivers for AIC8800 and compatible devices on Windows 7/10/11 32-bit and 64-bit.
+This repository provides USB WiFi drivers for AIC8800 and compatible devices on Windows 7/10/11 32-bit and 64-bit, and PCIe WiFi drivers for AIC8800 on Windows 10/11 32-bit and 64-bit.
 
 #### Table of Contents
 
 1. [AIC8800 Specifications](#aic8800-specifications)
 2. [Driver Release Notes](#driver-release-notes)
 3. [Driver Download](#driver-download)
-    - [Drivers for Dual-band Devices | AX900](#drivers-for-dual-band-devices--ax900)
-    - [Drivers for Single-band Devices | AX286 AX300](#drivers-for-single-band-devices--ax286-ax300)
+    - [USB Drivers for Dual-band Devices | AX900](#usb-drivers-for-dual-band-devices--ax900)
+    - [USB Drivers for Single-band Devices | AX286 AX300](#usb-drivers-for-single-band-devices--ax286-ax300)
+    - [PCIe Drivers for PCIe WiFi Devices | AX900](#pcie-drivers-for-pcie-wifi-devices--ax900)
 4. [Supported Devices](#supported-devices)
-    - [Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#dual-band-driver-144640644--released-2025-08-06)
-    - [Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#dual-band-driver-64060210--released-2025-06-27)
-    - [Single-Band Driver 20.55.41.146 — Released 2025-07-31](#single-band-driver-205541146--released-2025-07-31)
+    - [USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#usb-dual-band-driver-144640644--released-2025-08-06)
+    - [USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#usb-dual-band-driver-64060210--released-2025-06-27)
+    - [USB Single-Band Driver 20.55.41.146 — Released 2025-07-31](#usb-single-band-driver-205541146--released-2025-07-31)
+    - [PCIe Driver 17.52.48.402 — Released 2025-02-08](#pcie-driver-175248402--released-2025-02-08)
 
 ## AIC8800 Specifications
 
@@ -37,7 +39,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 * Identical drivers are grouped together in the same row within the table.
 
 
-### Drivers for Dual-band Devices | AX900
+### USB Drivers for Dual-band Devices | AX900
 
 [DB-2025-08-06-OL-A]: https://www.cudy.com/cdn/shop/files/Driver_for_WU900_1.0_windows_7_10_11.zip
 [DB-2025-08-06-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Driver_for_WU900_1.0_windows_7_10_11.zip
@@ -126,7 +128,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 | <br> Microsoft®Update <br> Catalog <br> &nbsp;              | 2023-01-12  | 15.20.28.526   | 2                                     | [Download][DB-2023-01-12-OL-A]                ||
 
 
-### Drivers for Single-band Devices | AX286 AX300
+### USB Drivers for Single-band Devices | AX286 AX300
 
 | Single-band Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -156,9 +158,16 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 [^3]:❓: This is a TP-Link-specific driver only. Do not use it if you're looking for a generic/universal USB WiFi driver.
 
+### PCIe Drivers for PCIe WiFi Devices | AX900
+
+| Single-band Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
+|-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| <br> Fenvi FV-AX900+BT5.4 <br> Fenvi FV-AX900 Pro+BT5.4 <br> &nbsp;                         | 2025-02-08  | 17.52.48.402   | 2                                    | [Download](https://download.fenvi.com/support/AX900%20PCIE/ax900_pciewifi_20250208.zip)                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ax900_pciewifi_20250208.zip)       |
+
+
 ## Supported Devices
 
-#### Dual-Band Driver 14.46.40.644 — Released 2025-08-06
+#### USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06
 | Device Description                  | Device ID(s)                                                                 |
 |-------------------------------------|------------------------------------------------------------------------------|
 | AIC USB WiFi                        | USB\VID_A69C&PID_8801&MI_02                                                  |
@@ -175,7 +184,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
 <br>
 
-#### Dual-Band Driver 6.40.60.210 — Released 2025-06-27
+#### USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27
 | Device Description                  | Device ID(s)                                                                                           |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | AIC USB WiFi                        | USB\VID_A69C&PID_8801&MI_02                                                                            |
@@ -196,7 +205,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
 <br>
 
-#### Single-Band Driver 20.55.41.146 — Released 2025-07-31
+#### USB Single-Band Driver 20.55.41.146 — Released 2025-07-31
 | Device Description                  | Device ID(s)                                      |
 |-------------------------------------|---------------------------------------------------|
 | AIC88DC USB WiFi                    | USB\VID_A69C&PID_88DC<br>USB\VID_A69C&PID_88DD<br>USB\VID_368B&PID_88DF |
@@ -209,4 +218,11 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 | Ugreen USB WiFi                     | USB\VID_A69C&PID_88DE                             |
 | Ugreen WIFI6 Wireless USB Adapter   | USB\VID_368B&PID_88e5                             |
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
+<br>
+
+#### PCIe Driver 17.52.48.402 — Released 2025-02-08
+| Device Description                  | Device ID(s)                                      |
+|-------------------------------------|---------------------------------------------------|
+| AIC8800D80 PCIe WiFi                | PCI\VEN_A69C&DEV_8D80&SUBSYS_00000000             |
+| AIC8800D80 PCIe WiFi                | PCI\VEN_A69C&DEV_8D80&SUBSYS_00010000             |
 <br>
