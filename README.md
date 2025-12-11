@@ -48,6 +48,9 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 [DB-2024-11-15-OL-A]: https://resource.tp-link.com.cn/pc/docCenter/showDoc?productId=3343&type=DRIVER&id=1733901300455155
 [DB-2024-11-15-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000免驱版%20V1.1%20Windows系统驱动程序20241126.zip
 
+[DB-2024-11-13-OL-A]: https://download.fenvi.com/support/USB/AX900BT54(AIC8800).zip
+[DB-2024-11-13-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AX900BT54(AIC8800).zip
+
 [DB-2024-11-09-OL-A]: https://b-link.net.cn/downloads_16.html
 [DB-2024-11-09-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX90BT_windows_driver(2411).zip
 
@@ -107,6 +110,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 | <br> Cudy WU900 1.0     <br> &nbsp;                         | 2025-08-06  | 14.46.40.644    | 31                                    | [Download][DB-2025-08-06-OL-A]                                                                               | [Download][DB-2025-08-06-ML-A]   |
 | <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2025-06-27  | 6.40.60.210    | 41                                    | [Download][DB-2025-06-27-OL-A]                                                                                        | [Download][DB-2025-06-27-ML-A]   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
+| <br> Fenvi AX900+BT5.4  <br> &nbsp;                         | 2024-11-13  | 6.40.60.312    | 31                                    | [Download Page][DB-2024-11-13-OL-A]                                                                               | [Download][DB-2024-11-13-ML-A]   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                         | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page][DB-2024-11-09-OL-A]                                                                               | [Download][DB-2024-11-09-ML-A]   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1 ❓[^3]                              | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]                                                    | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
 | <br> Enmane EM-AX900S   <br> Enmane EM-AX900D <br> &nbsp;   | 2024-10-08  | 6.40.60.214    | 30                                    | [Download][DB-2024-10-08-OL-A]                                                                               | [Download][DB-2024-10-08-ML-A]   |
