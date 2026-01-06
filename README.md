@@ -5,12 +5,13 @@ This repository provides AIC USB WiFi drivers for AIC8800 and compatible devices
 #### Table of Contents
 
 1. [AIC8800 Specifications](#aic8800-specifications)
-2. [Driver Release Notes](#driver-release-notes)
-3. [Driver Download](#driver-download)
+2. [Official Datasheets](#official-datasheets)
+3. [Driver Release Notes](#driver-release-notes)
+4. [Driver Download](#driver-download)
     - [USB Drivers for Dual-band Devices | AX900](#usb-drivers-for-dual-band-devices--ax900)
     - [USB Drivers for Single-band Devices | AX286 AX300](#usb-drivers-for-single-band-devices--ax286-ax300)
     - [PCIe Drivers for PCIe WiFi Devices | AX900](#pcie-drivers-for-pcie-wifi-devices--ax900)
-4. [Supported Devices](#supported-devices)
+5. [Supported Devices](#supported-devices)
     - [USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#usb-dual-band-driver-144640644--released-2025-08-06)
     - [USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#usb-dual-band-driver-64060210--released-2025-06-27)
     - [USB Single-Band Driver 20.55.41.146 — Released 2025-07-31](#usb-single-band-driver-205541146--released-2025-07-31)
@@ -21,6 +22,18 @@ This repository provides AIC USB WiFi drivers for AIC8800 and compatible devices
 AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 specs [EN][Translated by Yandex]
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/peckishrine/aic8800_windows_drivers/main/docs/dda3461d-d025-41ea-83a8-27fce83387ee.png)  |  ![](https://raw.githubusercontent.com/peckishrine/aic8800_windows_drivers/main/docs/dda3461d-d025-41ea-83a8-27fce83387ee.translated.jpg)
+
+## Official Datasheets
+
+The datasheets below are courtesy of AIC Semiconductor and publicly available on search engines like DuckDuckGo.
+
+| Datasheet                          | Datasheet                                      | Datasheet                                      |
+|------------------------------------|------------------------------------------------|------------------------------------------------|
+| [AIC8800D40 DataSheet v1.0](https://serv.aicsemi.com/redmine/attachments/download/2446/AIC8800D40%20DataSheet%20v1.0.pdf) | [AIC8800D40X2_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2499/AIC8800D40X2_Datasheet_v1.0.1.pdf) | [AIC8800D80I_Datasheet_v1.0.2](https://serv.aicsemi.com/redmine/attachments/download/2500/AIC8800D80I_Datasheet_v1.0.2.pdf) |
+| [AIC8800D80P DataSheet v1.0](https://serv.aicsemi.com/redmine/attachments/download/2501/AIC8800D80P%20DataSheet%20v1.0.pdf) | [AIC8800D80X2PV DataSheet v1.0.0](https://serv.aicsemi.com/redmine/attachments/download/2503/AIC8800D80X2PV%20DataSheet%20v1.0.0.pdf) | [AIC8800D80X2P_Datasheet_v1.0.2](https://serv.aicsemi.com/redmine/attachments/download/2504/AIC8800D80X2P_Datasheet_v1.0.2.pdf) |
+| [AIC8800D80X2U DataSheet v1.0.0](https://serv.aicsemi.com/redmine/attachments/download/2505/AIC8800D80X2U%20DataSheet%20v1.0.0.pdf) | [AIC8800D80X2_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2502/AIC8800D80X2_Datasheet_v1.0.1.pdf) | [AIC8800D80_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2448/AIC8800D80_Datasheet_v1.0.1.pdf) |
+| [AIC8800DC Datasheet v1.2](https://serv.aicsemi.com/redmine/attachments/download/2449/AIC8800DC%20Datasheet%20v1.2.pdf) | [AIC8800DW Datasheet v1.0](https://serv.aicsemi.com/redmine/attachments/download/2450/AIC8800DW%20Datasheet%20v1.0.pdf) | [AIC8800M80P_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2506/AIC8800M80P_Datasheet_v1.0.1.pdf) |
+| [AIC8800M80X2P_Datasheet_v1.0.2](https://serv.aicsemi.com/redmine/attachments/download/2507/AIC8800M80X2P_Datasheet_v1.0.2.pdf) |                                                |                                                |
 
 
 ## Driver Release Notes
