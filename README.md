@@ -49,8 +49,6 @@ The datasheets below are courtesy of AIC Semiconductor and publicly available on
 
 * The driver date and version are obtained from `win10_x64\aicusbwifi.inf`.
 
-* Identical drivers are grouped together in the same row within the table.
-
 
 ### USB Drivers for Dual-band Devices | AX900
 
@@ -167,7 +165,7 @@ The datasheets below are courtesy of AIC Semiconductor and publicly available on
 
 [^1]: The server bans hotlinking by referer, so it's best to copy the link and paste it into a new tab or your download manager.
 
-[^2]:❌: The test for the USB Mode Switch service (AicWifiService.exe) failed on some USB Wi-Fi adapters.
+[^2]:❌: Some USB Wi-Fi adapters get stuck in CD drive/storage mode and never switch to Wi-Fi mode because the USB Mode Switch service (AicWifiService.exe) fails.
 
 [^3]:❓: This is a TP-Link-specific driver only. Do not use it if you're looking for a generic/universal USB WiFi driver.
 
