@@ -25,7 +25,7 @@ AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 s
 
 ## Official Datasheets
 
-The datasheets below are courtesy of AIC Semiconductor and publicly available on search engines like DuckDuckGo.
+The datasheets below are courtesy of AIC Semiconductor and publicly available on search engines like DuckDuckGo and Bing.
 
 | Datasheet                          | Datasheet                                      | Datasheet                                      |
 |------------------------------------|------------------------------------------------|------------------------------------------------|
@@ -47,97 +47,29 @@ The datasheets below are courtesy of AIC Semiconductor and publicly available on
 
 ## Driver Download
 
-* The driver date and version are obtained from `win10_x64\aicusbwifi.inf`.
-
+The driver date and version in the tables are obtained from win10_x64\aicusbwifi.inf. The versions for win7_x86, win7_x64, and win10_x86 are independent and may differ - check the specific date and version in each folder's own \aicusbwifi.inf file.  
 
 ### USB Drivers for Dual-band Devices | AX900
 
-[DB-2025-08-06-OL-A]: https://www.cudy.com/cdn/shop/files/Driver_for_WU900_1.0_windows_7_10_11.zip
-[DB-2025-08-06-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Driver_for_WU900_1.0_windows_7_10_11.zip
-
-[DB-2025-06-27-OL-A]: https://static.tenda.com.cn/doc/2025/07/25/656a29d0576d4325a68eb292935dfeea/Setup_U11ProV1.0_V1.0.0.21.zip
-[DB-2025-06-27-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.21.zip
-
-[DB-2024-11-15-OL-A]: https://resource.tp-link.com.cn/pc/docCenter/showDoc?productId=3343&type=DRIVER&id=1733901300455155
-[DB-2024-11-15-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000免驱版%20V1.1%20Windows系统驱动程序20241126.zip
-
-[DB-2024-11-13-OL-A]: https://download.fenvi.com/support/USB/AX900BT54(AIC8800).zip
-[DB-2024-11-13-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AX900BT54(AIC8800).zip
-
-[DB-2024-11-09-OL-A]: https://b-link.net.cn/downloads_16.html
-[DB-2024-11-09-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX90BT_windows_driver(2411).zip
-
-[DB-2024-10-17-OL-A]: https://media.tp-link.com.cn/software/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip
-[DB-2024-10-17-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip
-
-[DB-2024-10-17-OL-B]: https://media.tp-link.com.cn/software/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip
-[DB-2024-10-17-ML-B]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip
-
-[DB-2024-10-08-OL-A]: https://www.enmangroup.cn/link/EM-AX900S_Windows_WiFi%206_Driver.zip
-[DB-2024-10-08-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX900S_Windows_WiFi%206_Driver.zip
-
-[DB-2024-09-20-OL-A]: https://www.enmangroup.cn/link/EM-AX902B_Windows_WiFi6_Driver.zip
-[DB-2024-09-20-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX902B_Windows_WiFi6_Driver.zip
-
-[DB-2024-09-12-OL-A]: https://b-link.net.cn/downloads_16.html
-[DB-2024-09-12-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX900_windows_driver(2409).zip
-
-[DB-2024-09-12-OL-B]: https://download.lulian.cn/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip
-[DB-2024-09-12-ML-B]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip
-
-[DB-2024-09-12-OL-C]: https://download.lulian.cn/2024驱动/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip
-[DB-2024-09-12-ML-C]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip
-
-[DB-2024-09-12-OL-D]: https://download.lulian.cn/2024驱动/CM763-35265_USB无线网卡驱动_V1.2.zip
-[DB-2024-09-12-ML-D]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM763-35265_USB无线网卡驱动_V1.2.zip
-
-[DB-2024-08-22-OL-A]: https://static.tenda.com.cn/tdcweb/download/uploadfile/U11%20Pro/Setup_U11ProV1.0_V1.0.0.19.zip
-[DB-2024-08-22-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.19.zip
-
-[DB-2024-07-08-OL-A]: https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_for_Windows_11_10_7-AX7.exe?v=1729911456
-[DB-2024-07-08-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_for_Windows_11_10_7-AX7.exe
-
-[DB-2024-05-08-OL-A]: https://download.lulian.cn/AIC8800D80.zip
-[DB-2024-05-08-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80.zip
-
-[DB-2024-05-08-OL-B]: https://download.lulian.cn/2024驱动/AIC8800D80_20241114.zip
-[DB-2024-05-08-ML-B]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80_20241114.zip
-
-[DB-2024-05-08-OL-C]: https://download.lulian.cn/2024驱动/CM762-35264_USB无线网卡驱动_V1.2.zip
-[DB-2024-05-08-ML-C]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM762-35264_USB无线网卡驱动_V1.2.zip
-
-[DB-2024-03-30-OL-A]: https://en.comfast.com.cn/uploadfile/driver/CF-941AX.zip
-[DB-2024-03-30-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CF-941AX.zip
-
-[DB-2024-03-30-OL-B]: https://down.tendacn.com/uploadfile/U11/Setup_U11V1.0_V1.0.0.10.zip
-[DB-2024-03-30-ML-B]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11V1.0_V1.0.0.10.zip
-
-[DB-2024-03-02-OL-A]: https://drive.google.com/drive/folders/1qRon7CmS5sJFOBwek72gHWKLBbLti202?usp=sharing
-[DB-2024-03-02-ML-A]: https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ARVOX%20AX900%200501_24%20driver.zip
-
-[DB-2023-01-12-OL-A]: https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2023/02/551b8062-965e-4c98-a68a-fe20e8fea8e6_953a26b4ca290decbaea7f2b5899df10c67a6453.cab
-[DB-2023-01-12-ML-A]: -
-
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| <br> Cudy WU900 1.0     <br> &nbsp;                         | 2025-08-06  | 14.46.40.644    | 31                                    | [Download][DB-2025-08-06-OL-A]                                                                               | [Download][DB-2025-08-06-ML-A]   |
-| <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2025-06-27  | 6.40.60.210    | 41                                    | [Download][DB-2025-06-27-OL-A]                                                                                        | [Download][DB-2025-06-27-ML-A]   |
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page][DB-2024-11-15-OL-A]                                                                                   | [Download][DB-2024-11-15-ML-A]   |
-| <br> Fenvi AX900+BT5.4  <br> &nbsp;                         | 2024-11-13  | 6.40.60.312    | 31                                    | [Download][DB-2024-11-13-OL-A]                                                                               | [Download][DB-2024-11-13-ML-A]   |
-| <br> LB-Link BL-AX90BT   <br> &nbsp;                         | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page][DB-2024-11-09-OL-A]                                                                               | [Download][DB-2024-11-09-ML-A]   |
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1 ❓[^3]                              | [Download][DB-2024-10-17-OL-A] <br> [Download][DB-2024-10-17-OL-B]                                                    | [Download][DB-2024-10-17-ML-A] <br> [Download][DB-2024-10-17-ML-B]  |
-| <br> Enmane EM-AX900S   <br> Enmane EM-AX900D <br> &nbsp;   | 2024-10-08  | 6.40.60.214    | 30                                    | [Download][DB-2024-10-08-OL-A]                                                                               | [Download][DB-2024-10-08-ML-A]   |
-| <br> Enmane EM-AX902B   <br> &nbsp;                         | 2024-09-20  | 6.40.60.212    | 31                                    | [Download][DB-2024-09-20-OL-A]                                                                               | [Download][DB-2024-09-20-ML-A]   |
-| <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [Download Page][DB-2024-09-12-OL-A]                                                                               | [Download][DB-2024-09-12-ML-A]   |
-| <br> Ugreen CM763-35265 <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30 ❌[^2]                             | [Download][DB-2024-09-12-OL-B][^1] <br> [Download][DB-2024-09-12-OL-C][^1] <br> [Download][DB-2024-09-12-OL-D][^1]             | [Download][DB-2024-09-12-ML-B] <br> [Download][DB-2024-09-12-ML-C] <br> [Download][DB-2024-09-12-ML-D]  |
-| <br> Tenda U11 Pro      <br> &nbsp;                         | 2024-08-22  | 6.40.60.204    | 30                                    | [Download][DB-2024-08-22-OL-A]                                                                                        | [Download][DB-2024-08-22-ML-A]   |
-| <br> BrosTrend AX7      <br> &nbsp;                         | 2024-07-08  | 6.40.60.196    | 27                                    | [Download][DB-2024-07-08-OL-A]                                                                                        | [Download][DB-2024-07-08-ML-A]   |
-| <br> Ugreen CM762-35264 <br> &nbsp;                         | 2024-05-08  | 6.40.60.192    | 27                                    | [Download][DB-2024-05-08-OL-A][^1] <br> [Download][DB-2024-05-08-OL-B][^1] <br> [Download][DB-2024-05-08-OL-C][^1]             | [Download][DB-2024-05-08-ML-A] <br> [Download][DB-2024-05-08-ML-B] <br> [Download][DB-2024-05-08-ML-C]  |
-| <br> Comfast CF-941AX   <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 25                                    | [Download][DB-2024-03-30-OL-A]                                                                                        | [Download][DB-2024-03-30-ML-A]   |
-| <br> Tenda U11          <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 24                                    | [Download][DB-2024-03-30-OL-B]                                                                                        | [Download][DB-2024-03-30-ML-B]   |
-| <br> Arvox AX900        <br> &nbsp;                         | 2024-03-02  | 6.40.60.10     | 7                                     | [Google Drive][DB-2024-03-02-OL-A]                                                                                    | [Download][DB-2024-03-02-ML-A]   |
-| <br> Microsoft®Update <br> Catalog <br> &nbsp;              | 2023-01-12  | 15.20.28.526   | 2                                     | [Download][DB-2023-01-12-OL-A]                ||
-
+| <br> Cudy WU900 1.0     <br> &nbsp;                         | 2025-08-06  | 14.46.40.644   | 31                                    | [Download](https://www.cudy.com/cdn/shop/files/Driver_for_WU900_1.0_windows_7_10_11.zip)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Driver_for_WU900_1.0_windows_7_10_11.zip)   |
+| <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2025-06-27  | 6.40.60.210    | 41                                    | [Download](https://static.tenda.com.cn/doc/2025/07/25/656a29d0576d4325a68eb292935dfeea/Setup_U11ProV1.0_V1.0.0.21.zip)                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.21.zip)   |
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?productId=3343&type=DRIVER&id=1733901300455155)                                   | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000免驱版%20V1.1%20Windows系统驱动程序20241126.zip)   |
+| <br> Fenvi AX900+BT5.4  <br> &nbsp;                         | 2024-11-13  | 6.40.60.312    | 31                                    | [Download](https://download.fenvi.com/support/USB/AX900BT54(AIC8800).zip)                                                                              | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AX900BT54(AIC8800).zip)   |
+| <br> LB-Link BL-AX90BT   <br> &nbsp;                        | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page](https://b-link.net.cn/downloads_16.html)                                                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX90BT_windows_driver(2411).zip)   |
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1 ❓[^3]                              | [Download](https://media.tp-link.com.cn/software/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip) <br> [Download](https://media.tp-link.com.cn/software/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip)                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip)  |
+| <br> Enmane EM-AX900S   <br> Enmane EM-AX900D <br> &nbsp;   | 2024-10-08  | 6.40.60.214    | 30                                    | [Download](https://www.enmangroup.cn/link/EM-AX900S_Windows_WiFi%206_Driver.zip)                                                                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX900S_Windows_WiFi%206_Driver.zip)   |
+| <br> Enmane EM-AX902B   <br> &nbsp;                         | 2024-09-20  | 6.40.60.212    | 31                                    | [Download](https://www.enmangroup.cn/link/EM-AX902B_Windows_WiFi6_Driver.zip)                                                                           | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX902B_Windows_WiFi6_Driver.zip)   |
+| <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [Download Page](https://b-link.net.cn/downloads_16.html)                                                                                                | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX900_windows_driver(2409).zip)   |
+| <br> Ugreen CM763-35265 <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30 ❌[^2]                             | [Download](https://download.lulian.cn/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/CM763-35265_USB无线网卡驱动_V1.2.zip)[^1]             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM763-35265_USB无线网卡驱动_V1.2.zip)  |
+| <br> Tenda U11 Pro      <br> &nbsp;                         | 2024-08-22  | 6.40.60.204    | 30                                    | [Download](https://static.tenda.com.cn/tdcweb/download/uploadfile/U11%20Pro/Setup_U11ProV1.0_V1.0.0.19.zip)                                             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.19.zip)   |
+| <br> BrosTrend AX7      <br> &nbsp;                         | 2024-07-08  | 6.40.60.196    | 27                                    | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_for_Windows_11_10_7-AX7.exe?v=1729911456)                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_for_Windows_11_10_7-AX7.exe)   |
+| <br> Ugreen CM762-35264 <br> &nbsp;                         | 2024-05-08  | 6.40.60.192    | 27                                    | [Download](https://download.lulian.cn/AIC8800D80.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/AIC8800D80_20241114.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/CM762-35264_USB无线网卡驱动_V1.2.zip)[^1]             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM762-35264_USB无线网卡驱动_V1.2.zip)  |
+| <br> Comfast CF-941AX   <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 25                                    | [Download](https://en.comfast.com.cn/uploadfile/driver/CF-941AX.zip)                                                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CF-941AX.zip)   |
+| <br> Tenda U11          <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 24                                    | [Download](https://down.tendacn.com/uploadfile/U11/Setup_U11V1.0_V1.0.0.10.zip)                                                                         | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11V1.0_V1.0.0.10.zip)   |
+| <br> Arvox AX900        <br> &nbsp;                         | 2024-03-02  | 6.40.60.10     | 7                                     | [Google Drive](https://drive.google.com/drive/folders/1qRon7CmS5sJFOBwek72gHWKLBbLti202?usp=sharing)                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ARVOX%20AX900%200501_24%20driver.zip)   |
+| <br> Microsoft®Update <br> Catalog <br> &nbsp;              | 2023-01-12  | 15.20.28.526   | 2                                     | [Download](https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2023/02/551b8062-965e-4c98-a68a-fe20e8fea8e6_953a26b4ca290decbaea7f2b5899df10c67a6453.cab)                                                                                        | -                                |
 
 ### USB Drivers for Single-band Devices | AX286 AX300
 
