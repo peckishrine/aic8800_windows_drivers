@@ -46,8 +46,9 @@ The datasheets below are courtesy of AIC Semiconductor and publicly available on
 | [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note.translated.txt) | [Release Notes (English, Translated by Grok 4.1)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note2.translated.txt) |
 
 ## Driver Download
+The driver date and version values displayed in the tables are extracted from: `win10_x64\aicusbwifi.inf`.
 
-The driver date and version in the tables are obtained from win10_x64\aicusbwifi.inf. The versions for win7_x86, win7_x64, and win10_x86 are independent and may differ - check the specific date and version in each folder's own \aicusbwifi.inf file.  
+The `.inf` files in the other folders (`win7_x86`, `win7_x64`, `win10_x86`) — if present — are independent and may contain different driver dates and versions.
 
 ### USB Drivers for Dual-band Devices | AX900
 
