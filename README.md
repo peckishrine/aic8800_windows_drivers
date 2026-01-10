@@ -107,7 +107,7 @@ The driver date and version in the tables are obtained from win10_x64\aicusbwifi
 | PCIe Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <br> Fenvi FV-AX900+BT5.4 <br> Fenvi FV-AX900 Pro+BT5.4 <br> &nbsp;                         | 2025-02-08  | 17.52.48.402   | 2                                    | [Download](https://download.fenvi.com/support/AX900%20PCIE/ax900_pciewifi_20250208.zip)                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ax900_pciewifi_20250208.zip)       |
-
+| <br> Comfast CF-AX90 <br> &nbsp;                                                                 | 2024-07-22  | 12.32.48.604   | 2                                    | [Download](http://www.comfast.cn/uploadfile/2024/0731/20240731104235129.zip)                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20240731104235129.zip)       |
 
 ## Supported Devices
 
