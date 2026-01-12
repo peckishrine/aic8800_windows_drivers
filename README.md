@@ -1,6 +1,17 @@
-## AIC8800 USB/PCIe WiFi Windows Driver 驱动
+# AIC8800 Windows Drivers for WiFi 6 USB/PCIe Adapters (AX900, AX300, AX286 – NOT Realtek!)
 
-This repository provides AIC USB WiFi drivers for AIC8800 and compatible devices on Windows 7/10/11 32-bit and 64-bit, and AIC PCIe WiFi drivers for AIC8800 on Windows 10/11 32-bit and 64-bit.
+**The correct drivers for cheap WiFi 6 USB dongles from AliExpress / Amazon / Temu & other no-name sellers.**  
+
+Also includes PCIe drivers for AX900 PCIe junk cards.
+
+Perfect if you're searching for:
+- AIC8800 / AIC8800D80 / AIC88DC driver download
+- WiFi 6 USB adapter driver Windows 11 / 10 / 7
+- WiFi 6 dongle AX900 / AX300 / AX286 driver
+- Fix yellow exclamation mark in Device Manager on WiFi 6 adapter
+- Realtek driver not working → AIC8800 is the real chipset!
+
+**You've found the right place.** Scroll down for downloads and supported devices.
 
 #### Table of Contents
 
