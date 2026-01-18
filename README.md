@@ -30,9 +30,23 @@ Perfect if you're searching for:
 
 ## AIC8800 Specifications
 
-AIC8800 specs [CN][[Source](https://whycan.com/t_10714.html#p96428)] | AIC8800 specs [EN][Translated by Yandex]
-:-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/peckishrine/aic8800_windows_drivers/main/docs/dda3461d-d025-41ea-83a8-27fce83387ee.png)  |  ![](https://raw.githubusercontent.com/peckishrine/aic8800_windows_drivers/main/docs/dda3461d-d025-41ea-83a8-27fce83387ee.translated.jpg)
+| No. | Model             | Frequency Band     | Bluetooth   | Flash     | Other Features              |
+|-----|-------------------|--------------------|-------------|-----------|-----------------------------|
+| 1   | AIC8800DC         | Dual-band          | BT 5.0      | -         | -                           |
+| 2   | AIC8800DW         | Single 2.4 GHz     | BT 5.2      | -         | -                           |
+| 4   | AIC8800M          | Dual-band          | BT 5.0      | 2MB       | -                           |
+| 5   | AIC8800M-P        | Dual-band          | BT 5.0      | -         | PSRAM                       |
+| 6   | AIC8800MC         | Single 2.4 GHz     | BT 5.2      | -         | -                           |
+| 7   | AIC8800A          | Dual-band          | BT 5.0      | 2MB       | Voice support               |
+| 8   | AIC8800D80        | Dual-band          | BT 5.3      | -         | 80 MHz, SDIO                |
+| 9   | AIC8800DM80       | Dual-band          | BT 5.3      | 4MB       | 80 MHz                      |
+| 10  | AIC8800D80PF      | Dual-band          | BT 5.3      | -         | 80 MHz, PCIe                |
+| 11  | AIC8800FC         | Single 2.4 GHz     | None        | None      | -                           |
+| 12  | AIC8800F+PA       | Dual-band          | BT 5.2      | None      | PA (Power Amplifier)        |
+| 13  | AIC8800D80FC      | Dual-band          | None        | None      | 80 MHz                      |
+| 14  | AIC8800D80F       | Dual-band          | BT 5.2      | None      | 80 MHz                      |
+
+Source: https://whycan.com/t_10714.html#p96428
 
 ## Official Datasheets
 
