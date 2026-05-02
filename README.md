@@ -9,58 +9,41 @@ Perfect if you're searching for:
 - WiFi 6 USB adapter driver Windows 11 / 10 / 7
 - WiFi 6 dongle AX900 / AX300 / AX286 driver
 - Fix yellow exclamation mark in Device Manager on WiFi 6 adapter
-- Realtek driver not working → AIC8800 is the real chipset!
 
 **You've found the right place.** Scroll down for downloads and supported devices.
 
 #### Table of Contents
 
-1. [AIC8800 Specifications](#aic8800-specifications)
-2. [Official Datasheets](#official-datasheets)
-3. [Driver Release Notes](#driver-release-notes)
-4. [Driver Download](#driver-download)
+1. [AIC8800 Family Compatibility](#aic8800-family-compatibility)
+2. [Driver Release Notes](#driver-release-notes)
+3. [Driver Download](#driver-download)
     - [USB Drivers for Dual-band Devices | AX900](#usb-drivers-for-dual-band-devices--ax900)
     - [USB Drivers for Single-band Devices | AX286 AX300](#usb-drivers-for-single-band-devices--ax286-ax300)
     - [PCIe Drivers for PCIe WiFi Devices | AX900](#pcie-drivers-for-pcie-wifi-devices--ax900)
-5. [Supported Devices](#supported-devices)
+4. [Supported Devices](#supported-devices)
     - [USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#usb-dual-band-driver-144640644--released-2025-08-06)
     - [USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#usb-dual-band-driver-64060210--released-2025-06-27)
     - [USB Single-Band Driver 20.55.41.146 — Released 2025-07-31](#usb-single-band-driver-205541146--released-2025-07-31)
     - [PCIe Driver 17.52.48.402 — Released 2025-02-08](#pcie-driver-175248402--released-2025-02-08)
 
-## AIC8800 Specifications
+## AIC8800 Family Compatibility
 
-Source: [WhyCan Forum - AIC8800 series model comparison (2024)](https://whycan.com/t_10714.html#p96428)
+### USB WiFi Bluetooth Dongle
 
-| No. | Model             | Frequency Band     | Bluetooth   | Flash     | Other Features              |
-|-----|-------------------|--------------------|-------------|-----------|-----------------------------|
-| 1   | AIC8800D          | Dual-band          | BT 5.0      | -         | -                           |
-| 2   | AIC8800DC         | Single 2.4 GHz     | BT 5.2      | -         | -                           |
-| 3   | AIC8800DW         | Single 2.4 GHz     | -           | -         | -                           |
-| 4   | AIC8800M          | Dual-band          | BT 5.0      | 2MB       | -                           |
-| 5   | AIC8800M-P        | Dual-band          | BT 5.0      | -         | PSRAM                       |
-| 6   | AIC8800MC         | Single 2.4 GHz     | BT 5.2      | -         | -                           |
-| 7   | AIC8800A          | Dual-band          | BT 5.0      | 2MB       | Voice support               |
-| 8   | AIC8800D80        | Dual-band          | BT 5.3      | -         | 80 MHz, SDIO                |
-| 9   | AIC8800M80        | Dual-band          | BT 5.3      | 4MB       | 80 MHz                      |
-| 10  | AIC8800D80P       | Dual-band          | BT 5.3      | -         | 80 MHz, PCIe                |
-| 11  | AIC8800FC         | Single 2.4 GHz     | -           | -         | -                           |
-| 12  | AIC8800F          | Dual-band          | BT 5.2      | -         | -                           |
-| 13  | AIC8800F+PA       | Dual-band          | BT 5.2      | -         | PA (Power Amplifier)        |
-| 14  | AIC8800D80FC      | Dual-band          | -           | -         | 80 MHz                      |
-| 15  | AIC8800D80F       | Dual-band          | BT 5.2      | -         | 80 MHz                      |
+| Operating System | WiFi 📶       | Bluetooth 🎧   | 
+|------------------|---------------|-----------------|
+| **Windows 11**   | 🟢 Works     | 🟢 Works        |
+| **Windows 10**   | 🟢 Works     | 🟢 Works        |
+| **Windows 7**    | 🟢 Works     | 🔴 Not working  |
 
-## Official Datasheets
+### PCIe WiFi Bluetooth Card
 
-The datasheets below are courtesy of AIC Semiconductor and publicly available on search engines like DuckDuckGo and Bing.
+| Operating System | WiFi 📶       | Bluetooth 🎧   | 
+|------------------|---------------|-----------------|
+| **Windows 11**   | 🟢 Works     | 🟢 Works        |
+| **Windows 10**   | 🟢 Works     | 🟢 Works        |
+| **Windows 7**    |      |   |
 
-| Datasheet                          | Datasheet                                      | Datasheet                                      |
-|------------------------------------|------------------------------------------------|------------------------------------------------|
-| [AIC8800D40 DataSheet v1.0](https://serv.aicsemi.com/redmine/attachments/download/2446/AIC8800D40%20DataSheet%20v1.0.pdf) | [AIC8800D40X2_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2499/AIC8800D40X2_Datasheet_v1.0.1.pdf) | [AIC8800D80I_Datasheet_v1.0.2](https://serv.aicsemi.com/redmine/attachments/download/2500/AIC8800D80I_Datasheet_v1.0.2.pdf) |
-| [AIC8800D80P DataSheet v1.0](https://serv.aicsemi.com/redmine/attachments/download/2501/AIC8800D80P%20DataSheet%20v1.0.pdf) | [AIC8800D80X2PV DataSheet v1.0.0](https://serv.aicsemi.com/redmine/attachments/download/2503/AIC8800D80X2PV%20DataSheet%20v1.0.0.pdf) | [AIC8800D80X2P_Datasheet_v1.0.2](https://serv.aicsemi.com/redmine/attachments/download/2504/AIC8800D80X2P_Datasheet_v1.0.2.pdf) |
-| [AIC8800D80X2U DataSheet v1.0.0](https://serv.aicsemi.com/redmine/attachments/download/2505/AIC8800D80X2U%20DataSheet%20v1.0.0.pdf) | [AIC8800D80X2_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2502/AIC8800D80X2_Datasheet_v1.0.1.pdf) | [AIC8800D80_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2448/AIC8800D80_Datasheet_v1.0.1.pdf) |
-| [AIC8800DC Datasheet v1.2](https://serv.aicsemi.com/redmine/attachments/download/2449/AIC8800DC%20Datasheet%20v1.2.pdf) | [AIC8800DW Datasheet v1.0](https://serv.aicsemi.com/redmine/attachments/download/2450/AIC8800DW%20Datasheet%20v1.0.pdf) | [AIC8800M80P_Datasheet_v1.0.1](https://serv.aicsemi.com/redmine/attachments/download/2506/AIC8800M80P_Datasheet_v1.0.1.pdf) |
-| [AIC8800M80X2P_Datasheet_v1.0.2](https://serv.aicsemi.com/redmine/attachments/download/2507/AIC8800M80X2P_Datasheet_v1.0.2.pdf) |                                                |                                                |
 
 
 ## Driver Release Notes
@@ -73,9 +56,7 @@ The datasheets below are courtesy of AIC Semiconductor and publicly available on
 | [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note.translated.txt) | [Release Notes (English, Translated by Grok 4.1)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note2.translated.txt) |
 
 ## Driver Download
-The driver date and version values displayed in the tables are extracted from: `win10_x64\aicusbwifi.inf`.
-
-The `.inf` files in the other folders (`win7_x86`, `win7_x64`, `win10_x86`) — if present — are independent and may contain different driver dates and versions.
+The driver date and version values displayed in the tables are based on Windows 10/11 x64 driver.
 
 ### USB Drivers for Dual-band Devices | AX900
 
@@ -134,8 +115,9 @@ The `.inf` files in the other folders (`win7_x86`, `win7_x64`, `win10_x86`) — 
 
 | PCIe Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| <br> Ugreen CM958-75615 <br> &nbsp;                                                         | 2025-12-09  | 16.0.9.396     | 1 (Generic)                                   | [Download](https://download.lulian.cn/2026-drive/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)[^1]                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)       |
 | <br> Fenvi FV-AX900+BT5.4 <br> Fenvi FV-AX900 Pro+BT5.4 <br> &nbsp;                         | 2025-02-08  | 17.52.48.402   | 2                                    | [Download](https://download.fenvi.com/support/AX900%20PCIE/ax900_pciewifi_20250208.zip)                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ax900_pciewifi_20250208.zip)       |
-| <br> Comfast CF-AX90 <br> &nbsp;                                                            | 2024-07-22  | 12.32.48.604   | 2                                    | [Download Page](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=804)                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20240731104235129.zip)       |
+| <br> Comfast CF-AX90 <br> &nbsp;                                                            | 2024-07-22  | 12.32.48.604   | 2                                     | [Download Page](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=804)                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20240731104235129.zip)       |
 
 ## Supported Devices
 
@@ -190,6 +172,12 @@ The `.inf` files in the other folders (`win7_x86`, `win7_x64`, `win10_x86`) — 
 | Ugreen USB WiFi                     | USB\VID_A69C&PID_88DE                             |
 | Ugreen WIFI6 Wireless USB Adapter   | USB\VID_368B&PID_88e5                             |
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
+<br>
+
+#### PCIe Driver 16.0.9.396 — Released 2025-12-09
+| Device Description                  | Device ID(s)                                                                 |
+|-------------------------------------|------------------------------------------------------------------------------|
+| Ugreen Wi-Fi 6 Wireless PCIe NIC    | PCI\VEN_A69C&DEV_8D80                                                        |
 <br>
 
 #### PCIe Driver 17.52.48.402 — Released 2025-02-08
