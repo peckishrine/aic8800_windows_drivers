@@ -24,7 +24,7 @@ Perfect if you're searching for:
     - [USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#usb-dual-band-driver-144640644--released-2025-08-06)
     - [USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#usb-dual-band-driver-64060210--released-2025-06-27)
     - [USB Single-Band Driver 20.55.41.146 — Released 2025-07-31](#usb-single-band-driver-205541146--released-2025-07-31)
-    - [PCIe Driver 16.0.9.396 — Released 2025-02-08](#pcie-driver-1609396--released-2025-12-09)
+    - [PCIe Driver 16.0.9.396 — Released 2025-12-09](#pcie-driver-1609396--released-2025-12-09)
     - [PCIe Driver 17.52.48.402 — Released 2025-02-08](#pcie-driver-175248402--released-2025-02-08)
 
 ## AIC8800 Family Compatibility
