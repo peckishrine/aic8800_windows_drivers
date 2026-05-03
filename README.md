@@ -5,7 +5,7 @@
 Also includes PCIe drivers for AX1800 / AX900 PCIe junk cards.
 
 Perfect if you're searching for:
-- AIC8800 / AIC8800D80 / AIC88DC driver download
+- Latest generic WiFi driver that actually works
 - WiFi 6 USB adapter driver Windows 11 / 10 / 7
 - WiFi 6 dongle AX1800 / AX900 / AX300 / AX286 driver
 - Fix yellow exclamation mark in Device Manager on WiFi 6 adapter
@@ -33,10 +33,11 @@ Perfect if you're searching for:
 
 ### USB WiFi + Bluetooth Dongle
 
+#### Chipset: AIC8800FC / AIC8800DC / AIC8800D80 / AIC8800M80
 | Operating System | WiFi 📶          | Bluetooth 🎧       |
 |------------------|------------------|--------------------|
-| **Windows 11**   | 🟢 Works         | 🟢 Works           |
-| **Windows 10**   | 🟢 Works         | 🟢 Works           |
+| **Windows 11**   | 🟢 Works         | 🟢 Works. Chipset dependent           |
+| **Windows 10**   | 🟢 Works         | 🟢 Works. Chipset dependent           |
 | **Windows 7**    | 🟢 Works         | 🔴 Not working     |
 
 ### PCIe WiFi + Bluetooth Card
@@ -65,7 +66,9 @@ Perfect if you're searching for:
 | [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note.translated.txt) | [Release Notes (English, Translated by Grok 4.1)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note2.translated.txt) |
 
 ## Driver Download
-The driver date and version values displayed in the tables are based on Windows 10/11 x64 driver.
+* The driver date and version values displayed in the tables are based on Windows 10/11 x64 driver.
+* Because those drivers are designed generically, simply locate and install the latest version that offers maximum device support.
+* Always uninstall the existing driver before installing the latest one.
 
 ### USB Drivers for Dual-band Devices | AX900
 
