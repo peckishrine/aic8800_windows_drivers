@@ -2,59 +2,63 @@
 
 **The correct drivers for cheap WiFi 6 USB dongles from AliExpress / Amazon / Temu & other no-name sellers.**  
 
-Also includes PCIe drivers for AX1800 / AX900 PCIe junk cards.
-
 Perfect if you're searching for:
 - Latest generic AIC8800 WiFi driver that actually works
 - WiFi 6 USB adapter driver Windows 11 / 10 / 7
 - WiFi 6 dongle AX1800 / AX900 / AX300 / AX286 driver
+- WiFi 6 PCIe drivers for AX1800 / AX900 PCIe junk cards
 - Fix yellow exclamation mark in Device Manager on WiFi 6 adapter
-
-**You've found the right place.** Scroll down for downloads and supported devices.
 
 #### Table of Contents
 
 1. [AIC8800 Family Compatibility](#aic8800-family-compatibility)
 2. [Driver Release Notes](#driver-release-notes)
 3. [Driver Download](#driver-download)
-    - [USB Drivers for Dual-band Devices | AX900](#usb-drivers-for-dual-band-devices--ax900)
-    - [USB Drivers for Single-band Devices | AX286 AX300](#usb-drivers-for-single-band-devices--ax286-ax300)
+    - [AX900 USB WiFi Drivers](#ax900-usb-wifi-drivers)
+    - [AX286 AX300 USB WiFi Drivers](#ax286-ax300-usb-wifi-drivers)
     - [AX900 PCIe WiFi Drivers](#ax900-pcie-wifi-drivers)
     - [AX1800 PCIe WiFi Drivers](#ax1800-pcie-wifi-drivers)
 4. [Supported Devices](#supported-devices)
-    - [USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#usb-dual-band-driver-144640644--released-2025-08-06)
-    - [USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#usb-dual-band-driver-64060210--released-2025-06-27)
-    - [USB Single-Band Driver 20.55.41.146 — Released 2025-07-31](#usb-single-band-driver-205541146--released-2025-07-31)
-    - [AX900 PCIe Driver 16.0.9.396 — Released 2025-12-09](#ax900-pcie-driver-1609396--released-2025-12-09)
-    - [AX900 PCIe Driver 17.52.48.402 — Released 2025-02-08](#ax900-pcie-driver-175248402--released-2025-02-08)
-    - [AX1800 PCIe Driver 17.16.59.388 — Released 2026-01-09](#ax1800-pcie-driver-171659388--released-2026-01-09)
+    - [AX900 USB Driver 2025-08-06 — 14.46.40.644](#ax900-usb-driver-2025-08-06--144640644)
+    - [AX900 USB Driver 2025-06-27 — 6.40.60.210](#ax900-usb-driver-2025-06-27--64060210)
+    - [AX286 AX300 USB Driver 2025-07-31 — 20.55.41.146](#ax286-ax300-usb-driver-2025-07-31--205541146)
+    - [AX900 PCIe Drive 2025-12-09 — 16.0.9.396](#ax900-pcie-driver-2025-12-09--1609396)
+    - [AX900 PCIe Driver 2025-02-08 — 17.52.48.402](#ax900-pcie-driver-2025-02-08--175248402)
+    - [AX1800 PCIe Driver 2026-01-09 — 17.16.59.388](#ax1800-pcie-driver-2026-01-09--171659388)
 
 ## AIC8800 Family Compatibility
 
 ### USB WiFi + Bluetooth Dongle
 
-#### Chipset: AIC8800FC / AIC8800DC / AIC8800D80 / AIC8800M80
+AX286 AX300 chipset: AIC8800FC / AIC8800DC
+
+AX900 chipset: AIC8800D80 / AIC8800M80
+
 | Operating System | WiFi 📶          | Bluetooth 🎧       |
 |------------------|------------------|--------------------|
 | **Windows 11**   | 🟢 Works         | 🟢 Works. Chipset dependent           |
 | **Windows 10**   | 🟢 Works         | 🟢 Works. Chipset dependent           |
 | **Windows 7**    | 🟢 Works         | 🔴 Not working     |
+<br>
 
 ### PCIe WiFi + Bluetooth Card
 
-#### Chipset: AIC8800D80P / AIC8800M80P
+AX900 chipset: AIC8800D80P / AIC8800M80P
+
 | Operating System | WiFi 📶                  | Bluetooth 🎧              |
 |------------------|--------------------------|---------------------------|
 | **Windows 11**   | 🟢 Works                 | 🟢 Works                  |
 | **Windows 10**   | 🟢 Works                 | 🟢 Works                  |
 | **Windows 7**    | 🟡 Driver dependent      | 🟡 Driver dependent       |
 
-#### Chipset: AIC8800D80X2P
+AX1800 chipset: AIC8800D80X2P
+
 | Operating System | WiFi 📶          | Bluetooth 🎧       |
 |------------------|------------------|--------------------|
 | **Windows 11**   | 🟢 Works         | 🟢 Works           |
 | **Windows 10**   | 🟢 Works         | 🟢 Works           |
 | **Windows 7**    | 🔴 Not working   | 🔴 Not working     |
+<br>
 
 ## Driver Release Notes
 
@@ -64,34 +68,32 @@ Perfect if you're searching for:
 | **Source:** Ugreen                | **Source:** Enmane                |
 | [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note.txt) | [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note2.txt)  |
 | [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note.translated.txt) | [Release Notes (English, Translated by Grok 4.1)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note2.translated.txt) |
+<br>
 
 ## Driver Download
 * The driver date and version values displayed in the tables are based on Windows 10/11 x64 driver.
 
-### USB Drivers for Dual-band Devices | AX900
+### AX900 USB WiFi Drivers
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <br> Cudy WU900 1.0     <br> &nbsp;                         | 2025-08-06  | 14.46.40.644   | 31                                    | [Download](https://www.cudy.com/cdn/shop/files/Driver_for_WU900_1.0_windows_7_10_11.zip)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Driver_for_WU900_1.0_windows_7_10_11.zip)   |
-| <br> TP-Link TL-XDN7000H     <br> &nbsp;                    | 2025-08-05  | 14.46.40.658   | 1 ❓[^3]                              | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?id=1766645405078389)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20251125.zip)   |
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2025-08-05  | 14.46.40.658   | 1 ❓[^3]                              | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?id=1766645405078389)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20251125.zip)   |
 | <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2025-06-27  | 6.40.60.210    | 41                                    | [Download](https://static.tenda.com.cn/doc/2025/07/25/656a29d0576d4325a68eb292935dfeea/Setup_U11ProV1.0_V1.0.0.21.zip)                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.21.zip)   |
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-11-15  | 14.46.40.648   | 1 ❓[^3]                              | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?productId=3343&type=DRIVER&id=1733901300455155)                                   | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000免驱版%20V1.1%20Windows系统驱动程序20241126.zip)   |
 | <br> Fenvi AX900+BT5.4  <br> &nbsp;                         | 2024-11-13  | 6.40.60.312    | 31                                    | [Download](https://download.fenvi.com/support/USB/AX900BT54(AIC8800).zip)                                                                              | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AX900BT54(AIC8800).zip)   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                        | 2024-11-09  | 6.40.60.310    | 31                                    | [Download Page](https://b-link.net.cn/downloads_16.html)                                                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX90BT_windows_driver(2411).zip)   |
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2024-10-17  | 14.46.40.642   | 1 ❓[^3]                              | [Download](https://media.tp-link.com.cn/software/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip) <br> [Download](https://media.tp-link.com.cn/software/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip)                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000免驱版%20V1.1驱动程序20241021.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20241021.zip)  |
 | <br> Enmane EM-AX900S   <br> Enmane EM-AX900D <br> &nbsp;   | 2024-10-08  | 6.40.60.214    | 30                                    | [Download](https://www.enmangroup.cn/link/EM-AX900S_Windows_WiFi%206_Driver.zip)                                                                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX900S_Windows_WiFi%206_Driver.zip)   |
 | <br> Enmane EM-AX902B   <br> &nbsp;                         | 2024-09-20  | 6.40.60.212    | 31                                    | [Download](https://www.enmangroup.cn/link/EM-AX902B_Windows_WiFi6_Driver.zip)                                                                           | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX902B_Windows_WiFi6_Driver.zip)   |
 | <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [Download Page](https://b-link.net.cn/downloads_16.html)                                                                                                | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX900_windows_driver(2409).zip)   |
 | <br> Ugreen CM763-35265 <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30 ❌[^2]                             | [Download](https://download.lulian.cn/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/CM763-35265_USB无线网卡驱动_V1.2.zip)[^1]             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM763-35265_USB无线网卡驱动_V1.2.zip)  |
-| <br> Tenda U11 Pro      <br> &nbsp;                         | 2024-08-22  | 6.40.60.204    | 30                                    | [Download](https://static.tenda.com.cn/tdcweb/download/uploadfile/U11%20Pro/Setup_U11ProV1.0_V1.0.0.19.zip)                                             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.19.zip)   |
 | <br> BrosTrend AX7      <br> &nbsp;                         | 2024-07-08  | 6.40.60.196    | 27                                    | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_for_Windows_11_10_7-AX7.exe?v=1729911456)                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_for_Windows_11_10_7-AX7.exe)   |
 | <br> Ugreen CM762-35264 <br> &nbsp;                         | 2024-05-08  | 6.40.60.192    | 27                                    | [Download](https://download.lulian.cn/AIC8800D80.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/AIC8800D80_20241114.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/CM762-35264_USB无线网卡驱动_V1.2.zip)[^1]             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM762-35264_USB无线网卡驱动_V1.2.zip)  |
 | <br> Comfast CF-941AX   <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 25                                    | [Download](https://en.comfast.com.cn/uploadfile/driver/CF-941AX.zip)                                                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CF-941AX.zip)   |
-| <br> Tenda U11          <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 24                                    | [Download](https://down.tendacn.com/uploadfile/U11/Setup_U11V1.0_V1.0.0.10.zip)                                                                         | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11V1.0_V1.0.0.10.zip)   |
 | <br> Arvox AX900        <br> &nbsp;                         | 2024-03-02  | 6.40.60.10     | 7                                     | [Google Drive](https://drive.google.com/drive/folders/1qRon7CmS5sJFOBwek72gHWKLBbLti202?usp=sharing)                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ARVOX%20AX900%200501_24%20driver.zip)   |
 | <br> Microsoft®Update <br> Catalog <br> &nbsp;              | 2023-01-12  | 15.20.28.526   | 2                                     | [Download](https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2023/02/551b8062-965e-4c98-a68a-fe20e8fea8e6_953a26b4ca290decbaea7f2b5899df10c67a6453.cab)                                                                                        | -                                |
+<br>
 
-### USB Drivers for Single-band Devices | AX286 AX300
+### AX286 AX300 USB WiFi Drivers
 
 | Single-band Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -103,18 +105,12 @@ Perfect if you're searching for:
 | <br> Tenda U2v5.0       <br> &nbsp;                         | 2024-10-11  | 20.55.41.134   | 19                                    | [Download](https://down.tendacn.com/uploadfile/U2/Setup_U2V5.0_V1.0.0.14.zip)                                                         | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U2V5.0_V1.0.0.14.zip)                                              |
 | <br> Tenda W311MIv6.0   <br> &nbsp;                         | 2024-10-11  | 20.55.41.134   | 19                                    | [Download](https://down.tendacn.com/uploadfile/W311MI/Setup_W311MIV6.0_V1.0.0.14.zip)                                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_W311MIV6.0_V1.0.0.14.zip)                                          |
 | <br> LB-Link BL-300AX   <br> &nbsp;                         | 2024-09-03  | 20.55.41.132   | 19                                    | [~~Download Page~~](https://b-link.net.cn/downloads_16.html)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-300AX_windows_driver(2409).zip)                                      |
-| <br> Ugreen CM761-35263 <br> Ugreen CM760-35262 <br> &nbsp; | 2024-09-03  | 20.55.41.132   | 19 ❌[^2]                             | [Download](https://download.lulian.cn/AIC8800FC_Windows%2BLinux.zip)[^1]                                                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800FC_Windows+Linux.zip)                                            |
-| <br> Tenda U2v5.0       <br> &nbsp;                         | 2024-06-22  | 20.55.41.122   | 17                                    | [Download](https://static.tenda.com.cn/tdcweb/download/uploadfile/U2/Setup_U2V5.0_V1.0.0.11.zip)                                      | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U2V5.0_V1.0.0.11.zip)                                              |
-| <br> Tenda W311MIv6.0   <br> &nbsp;                         | 2024-06-22  | 20.55.41.122   | 17                                    | [Download](https://static.tenda.com.cn/tdcweb/download/uploadfile/20240627/Setup_W311MIV6.0_V1.0.0.11.zip)                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_W311MIV6.0_V1.0.0.11.zip)                                          |
-| <br> Ugreen CM761       <br> &nbsp;                         | 2024-01-08  | 21.8.52.318    | 17                                    | [Download](https://download.lulian.cn/AIC8800FC-CM761驱动.zip)[^1]                                                                       | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800FC-CM761驱动.zip)                                                |
 | <br> Comfast CF-940AX   <br> &nbsp;                         | 2023-10-18  | 21.8.51.313    | 16                                    | [Download](https://en.comfast.com.cn/uploadfile/2023/1220/20231220091946673.zip)                                                      | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20231220091946673.zip)                                                  |
 | <br> Enmane EM-AX300S   <br> &nbsp;                         | 2023-10-04  | 21.6.12.33     | 16                                    | [Download](https://www.enmangroup.cn/link/EM-AX300S_Windows_WiFi6_Driver.zip)                                                         | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX300S_Windows_WiFi6_Driver.zip)                                     |
 | <br> BrosTrend AX5      <br> &nbsp;                         | 2023-08-19  | 19.20.4.894    | 15                                    | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/AX300_Nano_USB_Adapter-Driver_for_Windows_11_10_7.exe?v=1695803771) | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AX300_Nano_USB_Adapter-Driver_for_Windows_11_10_7.exe)                  |
-| <br> Tenda U2v5.0       <br> &nbsp;                         | 2023-08-19  | 19.20.4.894    | 15                                    | [Download](https://down.tendacn.com/uploadfile/U2/Setup_U2V5.0_V1.0.0.4.zip)                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U2V5.0_V1.0.0.4.zip)                                              |
-| <br> Tenda W311MIv6.0   <br> &nbsp;                         | 2023-08-19  | 19.20.4.894    | 15                                    | [Download](https://down.tendacn.com/uploadfile/W311MI/Setup_W311MIV6.0_V1.0.0.8.zip)                                                  | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_W311MIV6.0_V1.0.0.8.zip)                                          |
 | <br> Enmane EM-AX286    <br> &nbsp;                         | 2023-02-09  | 16.7.10.200    | 3                                     | [Download](http://www.enmangroup.cn/link/EM-AX286_Windows_WiFi_Driver.zip)                                                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX286_Windows_WiFi_Driver.zip)                                       |
 | <br> Fenvi WIFI 6 AX286 <br> &nbsp;                         | 2023-02-09  | 16.7.10.200    | 3                                     | [Download](https://download.fenvi.com/support/USB/18286.rar)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/18286.rar)                                                              |
-
+<br>
 
 [^1]: The server bans hotlinking by referer, so it's best to copy the link and paste it into a new tab or your download manager.
 
@@ -129,17 +125,18 @@ Perfect if you're searching for:
 | <br> Ugreen CM958-75615 <br> &nbsp;                                                         | 2025-12-09  | 16.0.9.396     | 1                                   | [Download](https://download.lulian.cn/2026-drive/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)[^1]                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)       |
 | <br> Fenvi FV-AX900+BT5.4 <br> Fenvi FV-AX900 Pro+BT5.4 <br> &nbsp;                         | 2025-02-08  | 17.52.48.402   | 2                                    | [Download](https://download.fenvi.com/support/AX900%20PCIE/ax900_pciewifi_20250208.zip)                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ax900_pciewifi_20250208.zip)       |
 | <br> Comfast CF-AX90 <br> &nbsp;                                                            | 2024-07-22  | 12.32.48.604   | 2                                     | [Download Page](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=804)                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20240731104235129.zip)       |
+<br>
 
 ### AX1800 PCIe WiFi Drivers
 
 | PCIe Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <br> TP-Link TL-XDN7180 <br> &nbsp;                                                            | 2026-01-09  | 17.16.59.388   | 1                                     | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?id=1772186125915946)                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7180免驱版%20V1.0驱动程序20260109.zip)       |
-
+<br>
 
 ## Supported Devices
 
-#### USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06
+#### AX900 USB Driver 2025-08-06 — 14.46.40.644
 | Device Description                  | Device ID(s)                                                                 |
 |-------------------------------------|------------------------------------------------------------------------------|
 | AIC USB WiFi                        | USB\VID_A69C&PID_8801&MI_02                                                  |
@@ -156,7 +153,7 @@ Perfect if you're searching for:
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
 <br>
 
-#### USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27
+#### AX900 USB Driver 2025-06-27 — 6.40.60.210
 | Device Description                  | Device ID(s)                                                                                           |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | AIC USB WiFi                        | USB\VID_A69C&PID_8801&MI_02                                                                            |
@@ -177,7 +174,7 @@ Perfect if you're searching for:
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
 <br>
 
-#### USB Single-Band Driver 20.55.41.146 — Released 2025-07-31
+#### AX286 AX300 USB Driver 2025-07-31 — 20.55.41.146
 | Device Description                  | Device ID(s)                                      |
 |-------------------------------------|---------------------------------------------------|
 | AIC88DC USB WiFi                    | USB\VID_A69C&PID_88DC<br>USB\VID_A69C&PID_88DD<br>USB\VID_368B&PID_88DF |
@@ -192,20 +189,20 @@ Perfect if you're searching for:
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
 <br>
 
-#### AX900 PCIe Driver 16.0.9.396 — Released 2025-12-09
+#### AX900 PCIe Driver 2025-12-09 — 16.0.9.396
 | Device Description                  | Device ID(s)                                                                 |
 |-------------------------------------|------------------------------------------------------------------------------|
 | Ugreen Wi-Fi 6 Wireless PCIe NIC    | PCI\VEN_A69C&DEV_8D80                                                        |
 <br>
 
-#### AX900 PCIe Driver 17.52.48.402 — Released 2025-02-08
+#### AX900 PCIe Driver 2025-02-08 — 17.52.48.402
 | Device Description                  | Device ID(s)                                      |
 |-------------------------------------|---------------------------------------------------|
 | AIC8800D80 PCIe WiFi                | PCI\VEN_A69C&DEV_8D80&SUBSYS_00000000             |
 | AIC8800D80 PCIe WiFi                | PCI\VEN_A69C&DEV_8D80&SUBSYS_00010000             |
 <br>
 
-#### AX1800 PCIe Driver 17.16.59.388 — Released 2026-01-09
+#### AX1800 PCIe Driver 2026-01-09 — 17.16.59.388
 | Device Description                  | Device ID(s)                                                                 |
 |-------------------------------------|------------------------------------------------------------------------------|
 | TP-LINK Wireless PCIe Adapter    | PCI\VEN_A69C&DEV_8D90                                                        |
