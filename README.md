@@ -6,7 +6,7 @@ Perfect if you're searching for:
 - Latest generic AIC8800 WiFi driver that actually works
 - WiFi 6 USB adapter driver Windows 11 / 10 / 7
 - WiFi 6 dongle AX1800 / AX900 / AX300 / AX286 driver
-- WiFi 6 PCIe drivers for AX1800 / AX900 PCIe junk cards
+- WiFi 6 drivers for AX1800 / AX900 PCIe junk cards
 - Fix yellow exclamation mark in Device Manager on WiFi 6 adapter
 
 #### Table of Contents
