@@ -1,13 +1,13 @@
-# AIC8800 Windows Drivers for WiFi 6 USB/PCIe Adapters (AX900, AX300, AX286 – NOT Realtek!)
+# AIC8800 Windows Drivers for WiFi 6 USB/PCIe Adapters (AX1800, AX900, AX300, AX286 – NOT Realtek!)
 
 **The correct drivers for cheap WiFi 6 USB dongles from AliExpress / Amazon / Temu & other no-name sellers.**  
 
-Also includes PCIe drivers for AX900 PCIe junk cards.
+Also includes PCIe drivers for AX1800 / AX900 PCIe junk cards.
 
 Perfect if you're searching for:
 - AIC8800 / AIC8800D80 / AIC88DC driver download
 - WiFi 6 USB adapter driver Windows 11 / 10 / 7
-- WiFi 6 dongle AX900 / AX300 / AX286 driver
+- WiFi 6 dongle AX1800 / AX900 / AX300 / AX286 driver
 - Fix yellow exclamation mark in Device Manager on WiFi 6 adapter
 
 **You've found the right place.** Scroll down for downloads and supported devices.
@@ -19,33 +19,41 @@ Perfect if you're searching for:
 3. [Driver Download](#driver-download)
     - [USB Drivers for Dual-band Devices | AX900](#usb-drivers-for-dual-band-devices--ax900)
     - [USB Drivers for Single-band Devices | AX286 AX300](#usb-drivers-for-single-band-devices--ax286-ax300)
-    - [PCIe Drivers for PCIe WiFi Devices | AX900](#pcie-drivers-for-pcie-wifi-devices--ax900)
+    - [AX900 PCIe WiFi Drivers](#ax900-pcie-wifi-drivers)
+    - [AX1800 PCIe WiFi Drivers](#ax1800-pcie-wifi-drivers)
 4. [Supported Devices](#supported-devices)
     - [USB Dual-Band Driver 14.46.40.644 — Released 2025-08-06](#usb-dual-band-driver-144640644--released-2025-08-06)
     - [USB Dual-Band Driver 6.40.60.210 — Released 2025-06-27](#usb-dual-band-driver-64060210--released-2025-06-27)
     - [USB Single-Band Driver 20.55.41.146 — Released 2025-07-31](#usb-single-band-driver-205541146--released-2025-07-31)
-    - [PCIe Driver 16.0.9.396 — Released 2025-12-09](#pcie-driver-1609396--released-2025-12-09)
-    - [PCIe Driver 17.52.48.402 — Released 2025-02-08](#pcie-driver-175248402--released-2025-02-08)
+    - [AX900 PCIe Driver 16.0.9.396 — Released 2025-12-09](#ax900-pcie-driver-1609396--released-2025-12-09)
+    - [AX900 PCIe Driver 17.52.48.402 — Released 2025-02-08](#ax900-pcie-driver-175248402--released-2025-02-08)
+    - [AX1800 PCIe Driver 17.16.59.388 — Released 2026-01-09](#ax1800-pcie-driver-171659388--released-2026-01-09)
 
 ## AIC8800 Family Compatibility
 
-### USB WiFi Bluetooth Dongle
+### USB WiFi + Bluetooth Dongle
 
-| Operating System | WiFi 📶       | Bluetooth 🎧   | 
-|------------------|---------------|-----------------|
-| **Windows 11**   | 🟢 Works     | 🟢 Works        |
-| **Windows 10**   | 🟢 Works     | 🟢 Works        |
-| **Windows 7**    | 🟢 Works     | 🔴 Not working  |
+| Operating System | WiFi 📶          | Bluetooth 🎧       |
+|------------------|------------------|--------------------|
+| **Windows 11**   | 🟢 Works         | 🟢 Works           |
+| **Windows 10**   | 🟢 Works         | 🟢 Works           |
+| **Windows 7**    | 🟢 Works         | 🔴 Not working     |
 
-### PCIe WiFi Bluetooth Card
+### PCIe WiFi + Bluetooth Card
 
-| Operating System | WiFi 📶       | Bluetooth 🎧   | 
-|------------------|---------------|-----------------|
-| **Windows 11**   | 🟢 Works     | 🟢 Works        |
-| **Windows 10**   | 🟢 Works     | 🟢 Works        |
-| **Windows 7**    |      |   |
+#### Chipset: AIC8800D80P / AIC8800M80P
+| Operating System | WiFi 📶                  | Bluetooth 🎧              |
+|------------------|--------------------------|---------------------------|
+| **Windows 11**   | 🟢 Works                 | 🟢 Works                  |
+| **Windows 10**   | 🟢 Works                 | 🟢 Works                  |
+| **Windows 7**    | 🟡 Driver dependent      | 🟡 Driver dependent       |
 
-
+#### Chipset: AIC8800D80X2P
+| Operating System | WiFi 📶          | Bluetooth 🎧       |
+|------------------|------------------|--------------------|
+| **Windows 11**   | 🟢 Works         | 🟢 Works           |
+| **Windows 10**   | 🟢 Works         | 🟢 Works           |
+| **Windows 7**    | 🔴 Not working   | 🔴 Not working     |
 
 ## Driver Release Notes
 
@@ -112,13 +120,20 @@ The driver date and version values displayed in the tables are based on Windows 
 
 [^3]:❓: This is a TP-Link-specific driver only. Do not use it if you're looking for a generic/universal USB WiFi driver.
 
-### PCIe Drivers for PCIe WiFi Devices | AX900
+### AX900 PCIe WiFi Drivers
 
 | PCIe Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <br> Ugreen CM958-75615 <br> &nbsp;                                                         | 2025-12-09  | 16.0.9.396     | 1                                   | [Download](https://download.lulian.cn/2026-drive/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)[^1]                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)       |
 | <br> Fenvi FV-AX900+BT5.4 <br> Fenvi FV-AX900 Pro+BT5.4 <br> &nbsp;                         | 2025-02-08  | 17.52.48.402   | 2                                    | [Download](https://download.fenvi.com/support/AX900%20PCIE/ax900_pciewifi_20250208.zip)                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ax900_pciewifi_20250208.zip)       |
 | <br> Comfast CF-AX90 <br> &nbsp;                                                            | 2024-07-22  | 12.32.48.604   | 2                                     | [Download Page](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=804)                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20240731104235129.zip)       |
+
+### AX1800 PCIe WiFi Drivers
+
+| PCIe Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
+|-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| <br> TP-Link TL-XDN7180 <br> &nbsp;                                                            | 2026-01-09  | 17.16.59.388   | 1                                     | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?id=1772186125915946)                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7180免驱版%20V1.0驱动程序20260109.zip)       |
+
 
 ## Supported Devices
 
@@ -175,15 +190,21 @@ The driver date and version values displayed in the tables are based on Windows 
 | Wireless LAN WIFI 6 USB Adapter     | USB\VID_2604&PID_0015<br>USB\VID_2604&PID_0016<br>USB\VID_2604&PID_0017<br>USB\VID_2604&PID_0018<br>USB\VID_2604&PID_0019<br>USB\VID_2604&PID_001A<br>USB\VID_2604&PID_001B<br>USB\VID_2604&PID_001C<br>USB\VID_2604&PID_001D<br>USB\VID_2604&PID_001E |
 <br>
 
-#### PCIe Driver 16.0.9.396 — Released 2025-12-09
+#### AX900 PCIe Driver 16.0.9.396 — Released 2025-12-09
 | Device Description                  | Device ID(s)                                                                 |
 |-------------------------------------|------------------------------------------------------------------------------|
 | Ugreen Wi-Fi 6 Wireless PCIe NIC    | PCI\VEN_A69C&DEV_8D80                                                        |
 <br>
 
-#### PCIe Driver 17.52.48.402 — Released 2025-02-08
+#### AX900 PCIe Driver 17.52.48.402 — Released 2025-02-08
 | Device Description                  | Device ID(s)                                      |
 |-------------------------------------|---------------------------------------------------|
 | AIC8800D80 PCIe WiFi                | PCI\VEN_A69C&DEV_8D80&SUBSYS_00000000             |
 | AIC8800D80 PCIe WiFi                | PCI\VEN_A69C&DEV_8D80&SUBSYS_00010000             |
+<br>
+
+#### AX1800 PCIe Driver 17.16.59.388 — Released 2026-01-09
+| Device Description                  | Device ID(s)                                                                 |
+|-------------------------------------|------------------------------------------------------------------------------|
+| TP-LINK Wireless PCIe Adapter    | PCI\VEN_A69C&DEV_8D90                                                        |
 <br>
