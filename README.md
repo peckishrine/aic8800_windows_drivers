@@ -67,8 +67,6 @@ Perfect if you're searching for:
 
 ## Driver Download
 * The driver date and version values displayed in the tables are based on Windows 10/11 x64 driver.
-* Because those drivers are designed generically, simply locate and install the latest version that offers maximum device support.
-* Always uninstall the existing driver before installing the latest one.
 
 ### USB Drivers for Dual-band Devices | AX900
 
