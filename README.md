@@ -1,11 +1,10 @@
-# AIC8800 Windows Drivers for WiFi 6 USB/PCIe Adapters (AX1800, AX900, AX300, AX286 – NOT Realtek!)
+## AIC8800 Windows Drivers for WiFi 6 USB/PCIe Adapters
 
 **The correct drivers for cheap WiFi 6 USB dongles from AliExpress / Amazon / Temu & other no-name sellers.**  
-- Latest generic AIC8800 WiFi driver that actually works
+- Latest generic AICSemi AIC8800 WiFi driver that actually works
 - WiFi 6 USB adapter driver Windows 11 / 10 / 7
-- WiFi 6 dongle AX1800 / AX900 / AX300 / AX286 driver
+- WiFi 6 dongle AX1800 / AX900 / AX300 / AX286 drivers
 - WiFi 6 drivers for AX1800 / AX900 PCIe junk cards
-- These drivers are for AICSemi, not ZTop Microelectronics
 
 #### Table of Contents
 
@@ -80,6 +79,7 @@ AX1800 chipset: AIC8800D80X2P
 | <br> Cudy WU900 1.0     <br> &nbsp;                         | 2025-08-06  | 14.46.40.644   | 31                                    | [Download](https://www.cudy.com/cdn/shop/files/Driver_for_WU900_1.0_windows_7_10_11.zip)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Driver_for_WU900_1.0_windows_7_10_11.zip)   |
 | <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2025-08-05  | 14.46.40.658   | 1 ❓[^3]                              | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?id=1766645405078389)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20251125.zip)   |
 | <br> Prolink DH-5106U   <br> &nbsp;                         | 2025-06-27  | 6.40.60.213    | 39                                    | [Download](https://cdn.shopify.com/s/files/1/0569/4357/5113/files/Setup_DH-5106U-PLK01_V1.0.6.4.zip?v=1769048974)                                      | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_DH-5106U-PLK01_V1.0.6.4.zip)   |
+| <br> BrosTrend AX7P     <br> &nbsp;                         | 2025-02-18  | 6.40.60.208    | 33                                    | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_for_Windows_11_10_7_-_AX7P.exe?v=1743142938)                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_for_Windows_11_10_7_-_AX7P.exe)   |
 | <br> Fenvi AX900+BT5.4  <br> &nbsp;                         | 2024-11-13  | 6.40.60.312    | 31                                    | [Download](https://download.fenvi.com/support/USB/AX900BT54(AIC8800).zip)                                                                              | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AX900BT54(AIC8800).zip)   |
 | <br> Enmane EM-AX900S   <br> Enmane EM-AX900D <br> &nbsp;   | 2024-10-08  | 6.40.60.214    | 30                                    | [Download](https://www.enmangroup.cn/link/EM-AX900S_Windows_WiFi%206_Driver.zip)                                                                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX900S_Windows_WiFi%206_Driver.zip)   |
 | <br> Enmane EM-AX902B   <br> &nbsp;                         | 2024-09-20  | 6.40.60.212    | 31                                    | [Download](https://www.enmangroup.cn/link/EM-AX902B_Windows_WiFi6_Driver.zip)                                                                           | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX902B_Windows_WiFi6_Driver.zip)   |
