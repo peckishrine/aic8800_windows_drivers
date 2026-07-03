@@ -1,17 +1,19 @@
 ## AIC8800 Windows Drivers for WiFi 6 USB/PCIe Adapters
 
-**The correct drivers for cheap WiFi 6 USB dongles from AliExpress / Amazon / Temu & other no-name sellers.**  
-- Latest generic AICSemi AIC8800 WiFi driver that actually works
-- WiFi 6 USB adapter driver Windows 11 / 10 / 7
-- WiFi 6 dongle AX1800 / AX900 / AX300 / AX286 drivers
-- WiFi 6 drivers for AX1800 / AX900 PCIe junk cards
+**Correct Drivers for Cheap WiFi 6 USB & PCIe Adapters from AliExpress, Amazon, Temu & Other No-Name Sellers**
+- Latest AIC8800 WiFi 6 drivers for generic adapters – Pulled from various brands that actually work
+- WiFi 6 USB adapter drivers for Windows 11, 10 & 7
+- Drivers for AX1800 / AX900 / AX600 / AX300 / AX286 USB WiFi 6 dongles
+- Drivers for AX1800 / AX900 PCIe WiFi 6 cards
 
 #### Table of Contents
 
 1. [AIC8800 Family Compatibility](#aic8800-family-compatibility)
 2. [Driver Release Notes](#driver-release-notes)
 3. [Driver Download](#driver-download)
+    - [AX1800 USB WiFi Drivers](#ax1800-usb-wifi-drivers)
     - [AX900 USB WiFi Drivers](#ax900-usb-wifi-drivers)
+    - [AX600 USB WiFi Drivers](#ax600-usb-wifi-drivers)
     - [AX286 AX300 USB WiFi Drivers](#ax286-ax300-usb-wifi-drivers)
     - [AX900 PCIe WiFi Drivers](#ax900-pcie-wifi-drivers)
     - [AX1800 PCIe WiFi Drivers](#ax1800-pcie-wifi-drivers)
@@ -29,32 +31,31 @@
 
 AX286 AX300 chipset: AIC8800FC / AIC8800DC
 
+AX600 chipset: AIC8800M40
+
 AX900 chipset: AIC8800D80 / AIC8800M80
+
+AX1800 chipset: AIC8800D80X2
 
 | Operating System | WiFi 📶          | Bluetooth 🎧       |
 |------------------|------------------|--------------------|
 | **Windows 11**   | 🟢 Works         | 🟢 Works. Chipset dependent           |
 | **Windows 10**   | 🟢 Works         | 🟢 Works. Chipset dependent           |
-| **Windows 7**    | 🟢 Works         | 🔴 Not working     |
+| **Windows 7**    | 🟢 AX900, AX600, AX300, AX286 (Works) <br> 🔴 AX1800 (Not working)         | 🔴 Not working     |
 <br>
 
 ### PCIe WiFi + Bluetooth Card
 
 AX900 chipset: AIC8800D80P / AIC8800M80P
 
+AX1800 chipset: AIC8800D80X2P
+
 | Operating System | WiFi 📶                  | Bluetooth 🎧              |
 |------------------|--------------------------|---------------------------|
 | **Windows 11**   | 🟢 Works                 | 🟢 Works                  |
 | **Windows 10**   | 🟢 Works                 | 🟢 Works                  |
-| **Windows 7**    | 🟡 Driver dependent      | 🟡 Driver dependent       |
+| **Windows 7**    | 🟡 AX900 (Driver dependent) <br> 🔴 AX1800 (Not working)     | 🟡 AX900 (Driver dependent) <br> 🔴 AX1800 (Not working)       |
 
-AX1800 chipset: AIC8800D80X2P
-
-| Operating System | WiFi 📶          | Bluetooth 🎧       |
-|------------------|------------------|--------------------|
-| **Windows 11**   | 🟢 Works         | 🟢 Works           |
-| **Windows 10**   | 🟢 Works         | 🟢 Works           |
-| **Windows 7**    | 🔴 Not working   | 🔴 Not working     |
 <br>
 
 ## Driver Release Notes
@@ -70,37 +71,55 @@ AX1800 chipset: AIC8800D80X2P
 ## Driver Download
 * The driver date and version values displayed in the tables are based on Windows 10/11 x64 driver.
 
+### AX1800 USB WiFi Drivers
+
+| Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
+|-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| <br> Comfast CF-735BF      <br> &nbsp;                      | 2025-07-18  | 19.36.38.3     | 32                                    | [Download Page](https://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=932)                                                             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20260609024146808.rar)   |
+
+
 ### AX900 USB WiFi Drivers
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2026-02-02  | 14.46.40.664   | 44                                    | [Download Page](https://www.tenda.com.cn/material/show/787881267925061?proPath=U11Pro)                                                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.24.zip)   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                        | 2025-12-27  | 14.53.59.778   | 2                                     | [Download Page](https://b-link.net.cn/downloads_16.html)                                                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX90BT_windows_driver(2512).zip)   |
+| <br> Comfast CF-943F V2 <br> &nbsp;                         | 2025-08-06  | 14.46.40.644   | 31                                    | [Download Page](https://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=933)                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20260609024422398.rar)   |
 | <br> Cudy WU900 1.0     <br> &nbsp;                         | 2025-08-06  | 14.46.40.644   | 31                                    | [Download](https://www.cudy.com/cdn/shop/files/Driver_for_WU900_1.0_windows_7_10_11.zip)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Driver_for_WU900_1.0_windows_7_10_11.zip)   |
-| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2025-08-05  | 14.46.40.658   | 1 ❓[^3]                              | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?id=1766645405078389)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20251125.zip)   |
+| <br> TP-Link TL-XDN7000 <br> TP-Link TL-XDN7000H <br> &nbsp;| 2025-08-05  | 14.46.40.658   | 1                                    | [Download Page](https://resource.tp-link.com.cn/pc/docCenter/showDoc?id=1766645405078389)                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/TL-XDN7000H免驱版%20V1.1驱动程序20251125.zip)   |
 | <br> Prolink DH-5106U   <br> &nbsp;                         | 2025-06-27  | 6.40.60.213    | 39                                    | [Download](https://cdn.shopify.com/s/files/1/0569/4357/5113/files/Setup_DH-5106U-PLK01_V1.0.6.4.zip?v=1769048974)                                      | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_DH-5106U-PLK01_V1.0.6.4.zip)   |
+| <br> Comfast CF-943AX V2 <br> &nbsp;                        | 2025-06-26  | 14.46.40.660   | 31                                    | [Download Page](https://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=905)                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20260518025309671.rar)   |
 | <br> BrosTrend AX7P     <br> &nbsp;                         | 2025-02-18  | 6.40.60.208    | 33                                    | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_for_Windows_11_10_7_-_AX7P.exe?v=1743142938)                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_for_Windows_11_10_7_-_AX7P.exe)   |
 | <br> Fenvi AX900+BT5.4  <br> &nbsp;                         | 2024-11-13  | 6.40.60.312    | 31                                    | [Download](https://download.fenvi.com/support/USB/AX900BT54(AIC8800).zip)                                                                              | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AX900BT54(AIC8800).zip)   |
 | <br> Enmane EM-AX900S   <br> Enmane EM-AX900D <br> &nbsp;   | 2024-10-08  | 6.40.60.214    | 30                                    | [Download](https://www.enmangroup.cn/link/EM-AX900S_Windows_WiFi%206_Driver.zip)                                                                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX900S_Windows_WiFi%206_Driver.zip)   |
 | <br> Enmane EM-AX902B   <br> &nbsp;                         | 2024-09-20  | 6.40.60.212    | 31                                    | [Download](https://www.enmangroup.cn/link/EM-AX902B_Windows_WiFi6_Driver.zip)                                                                           | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/EM-AX902B_Windows_WiFi6_Driver.zip)   |
 | <br> LB-Link BL-AX900   <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30                                    | [Download Page](https://b-link.net.cn/downloads_16.html)                                                                                                | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX900_windows_driver(2409).zip)   |
-| <br> Ugreen CM763-35265 <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30 ❌[^2]                             | [Download](https://download.lulian.cn/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/CM763-35265_USB无线网卡驱动_V1.2.zip)[^1]             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM763-35265_USB无线网卡驱动_V1.2.zip)  |
+| <br> Ugreen CM763-35265 <br> &nbsp;                         | 2024-09-12  | 6.40.60.210    | 30 ❌[^1]                             | [Download Page (EN)](https://www.support.ugreen.com/download-center/CM763) <br> [Download Page (CN)](https://www.lulian.cn/download/154.html)            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片（Windows%2BLinux）丨CM763%20%2035265.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/绿联USB无线网卡驱动AIC8800M80芯片(Windows%2BLinux)_CM763-35265_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM763-35265_USB无线网卡驱动_V1.2.zip)  |
 | <br> BrosTrend AX7      <br> &nbsp;                         | 2024-07-08  | 6.40.60.196    | 27                                    | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_for_Windows_11_10_7-AX7.exe?v=1729911456)                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_for_Windows_11_10_7-AX7.exe)   |
-| <br> Ugreen CM762-35264 <br> &nbsp;                         | 2024-05-08  | 6.40.60.192    | 27                                    | [Download](https://download.lulian.cn/AIC8800D80.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/AIC8800D80_20241114.zip)[^1] <br> [Download](https://download.lulian.cn/2024驱动/CM762-35264_USB无线网卡驱动_V1.2.zip)[^1]             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM762-35264_USB无线网卡驱动_V1.2.zip)  |
+| <br> Ugreen CM762-35264 <br> &nbsp;                         | 2024-05-08  | 6.40.60.192    | 27                                    | [Download Page](https://www.lulian.cn/download/135.html)                                                                                                | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/AIC8800D80_20241114.zip) <br> [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CM762-35264_USB无线网卡驱动_V1.2.zip)  |
 | <br> Comfast CF-941AX   <br> &nbsp;                         | 2024-03-30  | 6.40.60.18     | 25                                    | [Download](https://en.comfast.com.cn/uploadfile/driver/CF-941AX.zip)                                                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/CF-941AX.zip)   |
 | <br> Arvox AX900        <br> &nbsp;                         | 2024-03-02  | 6.40.60.10     | 7                                     | [Google Drive](https://drive.google.com/drive/folders/1qRon7CmS5sJFOBwek72gHWKLBbLti202?usp=sharing)                                                    | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ARVOX%20AX900%200501_24%20driver.zip)   |
 | <br> Microsoft®Update <br> Catalog <br> &nbsp;              | 2023-01-12  | 15.20.28.526   | 2                                     | [Download](https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2023/02/551b8062-965e-4c98-a68a-fe20e8fea8e6_953a26b4ca290decbaea7f2b5899df10c67a6453.cab)                                                                                        | -                                |
 <br>
 
+### AX600 USB WiFi Drivers
+
+| Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
+|-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| <br> Comfast CF-731B      <br> &nbsp;                      | 2025-08-06  | 14.46.40.644     | 31                                    | [Download Page](https://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=930)                                                             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20260609024422398.rar)   |
+| <br> Comfast CF-941AX <br> Comfast CF-941F <br> &nbsp;     | 2025-06-26  | 14.46.40.660     | 31                                    | [Download Page](https://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=790)                                                             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20260520101625891.rar)   |
+
+
 ### AX286 AX300 USB WiFi Drivers
 
 | Single-band Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| <br> Ugreen CM860-75511 <br> &nbsp;                         | 2025-07-31  | 20.55.41.146   | 25                                    | [Download](https://download.lulian.cn/2025-drive/UGREEN_WiFi6_AX300_Driver_Windows_CM860-75511_V1.6.zip)[^1]                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN_WiFi6_AX300_Driver_Windows_CM860-75511_V1.6.zip)       |
+| <br> Ugreen CM860-75511 <br> &nbsp;                         | 2025-07-31  | 20.55.41.146   | 25                                    | [Download Page](https://www.lulian.cn/download/339.html)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN_WiFi6_AX300_Driver_Windows_CM860-75511_V1.6.zip)       |
 | <br> TP-Link Archer TX1U Nano <br> &nbsp;                   | 2025-06-13  | 20.55.41.154   | 26                                    | [Download](https://static.tp-link.com/upload/driver/2025/202509/20250904/Archer%20TX1U%20Nano(US)_V1_20.55.41.154_win7x32x64_win10x86x64_win11x64.zip)  | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Archer%20TX1U%20Nano(US)_V1_20.55.41.154_win7x32x64_win10x86x64_win11x64.zip)                                                  |
 | <br> Comfast CF-940F    <br> &nbsp;                         | 2025-06-13  | 20.55.41.154   | 26                                    | [Download](https://www.szcomfast.com/uploadfile/driver//940Faic8800fc_windows_driver_.zip)                                            | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/940Faic8800fc_windows_driver_.zip)                                                  |
+| <br> Comfast CF-940AX V2 <br> &nbsp;                        | 2025-01-14  | 20.55.41.148   | 21                                    | [Download Page](https://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=903)                                         | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20260512084041610.rar)   |
 | <br> Cudy WU300 1.0     <br> &nbsp;                         | 2024-11-26  | 20.55.41.142   | 21                                    | [Download](https://www.cudy.com/cdn/shop/files/Driver_for_WU300_1.0_windows_7_10_11.zip)                                              | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Driver_for_WU300_1.0_windows_7_10_11.zip)                                              |
-| <br> Ugreen CM761-35263 <br> Ugreen CM760-35262 <br> &nbsp; | 2024-11-26  | 20.55.41.142   | 21 ❌[^2]                             | [Download](https://download.lulian.cn/2025-drive/UGREEN_WiFi6_AX300_Driver_Windows_CM760-25262_CM761-35263_V1.6.zip)[^1]             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN_WiFi6_AX300_Driver_Windows_CM760-25262_CM761-35263_V1.6.zip)       |
+| <br> Ugreen CM761-35263 <br> Ugreen CM760-35262 <br> &nbsp; | 2024-11-26  | 20.55.41.142   | 21 ❌[^1]                             | [Download Page](https://www.lulian.cn/download/340.html)                                                                             | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN_WiFi6_AX300_Driver_Windows_CM760-25262_CM761-35263_V1.6.zip)       |
 | <br> Tenda U2v5.0       <br> &nbsp;                         | 2024-10-11  | 20.55.41.134   | 19                                    | [Download Page](https://www.tenda.com.cn/material/show/624836677918789?proPath=u2v50)                                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U2V5.0_V1.0.0.15.zip)                                              |
 | <br> Tenda W311MIv6.0   <br> &nbsp;                         | 2024-10-11  | 20.55.41.134   | 19                                    | [Download Page](https://www.tenda.com.cn/material/show/3938?proPath=w311miv60)                                                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_W311MIV6.0_V1.0.0.15.zip)                                          |
 | <br> LB-Link BL-300AX   <br> &nbsp;                         | 2024-09-03  | 20.55.41.132   | 19                                    | [~~Download Page~~](https://b-link.net.cn/downloads_16.html)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-300AX_windows_driver(2409).zip)                                      |
@@ -111,17 +130,14 @@ AX1800 chipset: AIC8800D80X2P
 | <br> Fenvi WIFI 6 AX286 <br> &nbsp;                         | 2023-02-09  | 16.7.10.200    | 3                                     | [Download](https://download.fenvi.com/support/USB/18286.rar)                                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/18286.rar)                                                              |
 <br>
 
-[^1]: The server bans hotlinking by referer, so it's best to copy the link and paste it into a new tab or your download manager.
 
-[^2]:❌: Some USB Wi-Fi adapters get stuck in CD drive/storage mode and never switch to Wi-Fi mode because the USB Mode Switch service (AicWifiService.exe) fails.
-
-[^3]:❓: This is a TP-Link-specific driver only. Do not use it if you're looking for a generic/universal USB WiFi driver.
+[^1]:❌: Some USB Wi-Fi adapters get stuck in CD drive/storage mode and never switch to Wi-Fi mode because the USB Mode Switch service (AicWifiService.exe) fails.
 
 ### AX900 PCIe WiFi Drivers
 
 | PCIe Devices                                         | Driver Date | Driver Version | Number of <br> Supported <br> Devices | Official Link                                                                                                                         | Mirror Link                                                                                                                                        |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| <br> Ugreen CM958-75615 <br> &nbsp;                                                         | 2025-12-09  | 16.0.9.396     | 1                                   | [Download](https://download.lulian.cn/2026-drive/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)[^1]                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)       |
+| <br> Ugreen CM958-75615 <br> &nbsp;                                                         | 2025-12-09  | 16.0.9.396     | 1                                   | [Download Page](https://www.lulian.cn/download/378.html)                                                  | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/UGREEN-CM958-75615_Windows_Drive_V1.0.zip)       |
 | <br> Fenvi FV-AX900+BT5.4 <br> Fenvi FV-AX900 Pro+BT5.4 <br> &nbsp;                         | 2025-02-08  | 17.52.48.402   | 2                                    | [Download](https://download.fenvi.com/support/AX900%20PCIE/ax900_pciewifi_20250208.zip)                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/ax900_pciewifi_20250208.zip)       |
 | <br> Comfast CF-AX90 <br> &nbsp;                                                            | 2024-07-22  | 12.32.48.604   | 2                                     | [Download Page](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=804)                        | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20240731104235129.zip)       |
 <br>
