@@ -10,14 +10,15 @@
 
 1. [AIC8800 Family Windows Compatibility Overview](#aic8800-family-windows-compatibility-overview)
 2. [Driver Release Notes](#driver-release-notes)
-3. [Driver Download](#driver-download)
+3. [Extracting INF Drivers from Installers](#extracting-inf-drivers-from-installers)
+4. [Driver Download](#driver-download)
     - [AX1800 USB WiFi Drivers](#ax1800-usb-wifi-drivers)
     - [AX900 USB WiFi Drivers](#ax900-usb-wifi-drivers)
     - [AX600 USB WiFi Drivers](#ax600-usb-wifi-drivers)
     - [AX286 AX300 USB WiFi Drivers](#ax286-ax300-usb-wifi-drivers)
     - [AX900 PCIe WiFi Drivers](#ax900-pcie-wifi-drivers)
     - [AX1800 PCIe WiFi Drivers](#ax1800-pcie-wifi-drivers)
-4. [Supported Devices](#supported-devices)
+5. [Supported Devices](#supported-devices)
     - [AX900 USB Driver 2026-02-02 — 14.46.40.664](#ax900-usb-driver-2026-02-02--144640664)
     - [AX900 USB Driver 2025-08-06 — 14.46.40.644](#ax900-usb-driver-2025-08-06--144640644)
     - [AX286 AX300 USB Driver 2025-07-31 — 20.55.41.146](#ax286-ax300-usb-driver-2025-07-31--205541146)
@@ -49,6 +50,21 @@
 | **Source:** Ugreen                | **Source:** Enmane                |
 | [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note.txt) | [Release Notes (Chinese)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note2.txt)  |
 | [Release Notes (English, Translated by GPT-4o mini)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note.translated.txt) | [Release Notes (English, Translated by Grok 4.1)](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/docs/release_note2.translated.txt) |
+<br>
+
+## Extracting INF Drivers from Installers
+
+Many **AIC8800** driver installers are packaged with **Inno Setup**. You can extract the **.inf driver files** without running the full installer by using **innoextract**.
+
+**Quick Steps:**
+1. Download the latest **innoextract** from [https://github.com/dscharrer/innoextract/releases](https://github.com/dscharrer/innoextract/releases).
+2. Place `innoextract.exe` in the same folder as your driver installer `.exe` file.
+3. Drag and drop the installer onto `innoextract.exe`.
+4. Look in the extracted `app` folder for the `.inf` driver files.
+
+**YouTube Tutorial**:  
+[How to Extract most Setup EXE Files without having to install! [INNOEXTRACT TUTORIAL]](https://www.youtube.com/watch?v=deizeKvEDxw)
+
 <br>
 
 ## Driver Download
