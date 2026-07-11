@@ -31,10 +31,10 @@
 *(Legend: ✅ Full Support | ❌ Not Supported | ⚠️ Limited / Partial Support / Driver-dependent / Unknown)*
 | Form Factor | Speed Rating     | WPA3 Support  | Chipset(s)                   | Win11 & Win10 WiFi BT* | Win7 WiFi  | Win7 BT     |
 |-------------|------------------|:-------------:|:-----------------------------|:--------------------------:|:----------:|:-----------:|
-| **USB**     | AX286/AX300    | ❌           | AIC8800FC <br> AIC8800DC     | ✅                         | ✅         | ❌          |
-| **USB**     | AX600            | ❌           | AIC8800M40                   | ✅                         | ✅         | ❌          |
+| **USB**     | AX286 / AX300    | ❌           | AIC8800FC <br> AIC8800DC     | ✅                         | ✅         | ❌          |
+| **USB**     | AX600            | ❌           | AIC8800M40 <br> AIC8800M40B | ✅                         | ✅         | ❌          |
 | **USB**     | AX900            | ❌           | AIC8800D80 <br> AIC8800M80   | ✅                         | ✅         | ❌          |
-| **USB**     | AX1800           | ✅           | AIC8800D80X2                 | ✅                         | ❌         | ❌          |
+| **USB**     | AX1800           | ✅           | AIC8800D80X2 <br> AIC8800M80X2U | ✅                         | ❌         | ❌          |
 | **PCIe**    | AX900            | ⚠️           | AIC8800D80P <br> AIC8800M80P | ✅                         | ⚠️         | ⚠️          |
 | **PCIe**    | AX1800           | ✅           | AIC8800D80X2P                | ✅                         | ❌         | ❌          |
 
