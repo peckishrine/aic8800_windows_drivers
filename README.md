@@ -81,7 +81,7 @@ Many **AIC8800** driver installers are packaged with **Inno Setup**. You can ext
 
 | Dual-band Devices &nbsp; &nbsp; &nbsp;                      | Driver Date | Driver Version | Number of <br> Supported <br> Devices |  Official Link                                                                                                        | Mirror Link                      |
 |-------------------------------------------------------------|-------------|----------------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| <br> BrosTrend WB2P      <br> &nbsp;                        | 2026-04-28  | 14.46.40.668   | 44                                    | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_AX900_USB_WiFi_6_and_Bluetooth_Adapter.exe)               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_AX900_USB_WiFi_6_and_Bluetooth_Adapter.exe)   |
+| <br> BrosTrend WB2P      <br> &nbsp;                        | 2026-04-28  | 14.46.40.668   | 44 🏬[^2]                            | [Download](https://cdn.shopify.com/s/files/1/0270/1023/6487/files/Latest_Driver_AX900_USB_WiFi_6_and_Bluetooth_Adapter.exe)               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Latest_Driver_AX900_USB_WiFi_6_and_Bluetooth_Adapter.exe)   |
 | <br> Tenda U11 <br> Tenda U11 Pro      <br> &nbsp;          | 2026-02-02  | 14.46.40.664   | 44                                    | [Download Page](https://www.tenda.com.cn/material/show/787881267925061?proPath=U11Pro)                                                                 | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/Setup_U11ProV1.0_V1.0.0.24.zip)   |
 | <br> LB-Link BL-AX90BT   <br> &nbsp;                        | 2025-12-27  | 14.53.59.778   | 2                                     | [Download Page](https://b-link.net.cn/downloads_16.html)                                                                                               | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/BL-AX90BT_windows_driver(2512).zip)   |
 | <br> Comfast CF-943F V2 <br> &nbsp;                         | 2025-08-06  | 14.46.40.644   | 31                                    | [Download Page](https://www.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=933)                                                          | [Download](https://github.com/peckishrine/aic8800_windows_drivers/raw/main/drivers/20260609024422398.rar)   |
@@ -131,7 +131,8 @@ Many **AIC8800** driver installers are packaged with **Inno Setup**. You can ext
 <br>
 
 
-[^1]:🚩: Some USB Wi-Fi adapters get stuck in CD drive/storage mode and never switch to Wi-Fi mode because the USB Mode Switch service (AicWifiService.exe) fails.
+[^1]:🚩: Some USB Wi-Fi adapters (especially non-Ugreen models) remain stuck in CD-ROM/storage mode and fail to switch to Wi-Fi mode because the USB Mode Switch service (AicWifiService.exe) does not work on them.
+[^2]:🏬: This driver does not support Windows 7.
 
 ### AX900 PCIe WiFi Drivers
 
